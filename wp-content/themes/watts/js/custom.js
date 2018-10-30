@@ -190,42 +190,27 @@ jQuery(document).ready(function($){
 --------------------------------------------------------------------------------------- */
 
 
-/*
-$('.sec_three_slider').slick({
+
+$('.sec_one_slider').slick({
   infinite: true,
-  slidesToShow: 6,
-  slidesToScroll: 6,
+  slidesToShow: 1,
+  slidesToScroll: 1,
 	arrows:true,
-	prevArrow:".arrow_left",
-	nextArrow:".arrow_right",
+	prevArrow:".sec_one_button_left",
+	nextArrow:".sec_one_button_right",
 	responsive: [
     {
-      breakpoint: 1450,
+      breakpoint: 1066,
       settings: {
-      slidesToShow: 5,
-      slidesToScroll: 5,
-     }
-   },
-   {
-      breakpoint: 1100,
-      settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      dots:true,
-     }
-   },
-   {
-      breakpoint: 767,
-      settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots:true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
      }
    }
+   
 	]
  });
  
-*/
+
  
 
 	
