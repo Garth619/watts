@@ -53,6 +53,26 @@
 		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 	</header>
+	
+	<div class="fixed_header">
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+		
+		<a class="email" href="mailto:">
+			
+			<?php echo file_get_contents("wp-content/themes/watts/images/ico-email.svg"); ?>
+			
+		</a>
+		
+	</div><!-- fixed_header -->
 				
 
 
