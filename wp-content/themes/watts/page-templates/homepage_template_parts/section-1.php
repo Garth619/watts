@@ -6,7 +6,7 @@
 		
 		<div class="sec_left_inner">
 			
-			<a class="logo" href="">
+			<a class="logo" href="<?php bloginfo('url');?>">
 				
 				<img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/>
 				
@@ -22,7 +22,9 @@
 			
 		</div><!-- sec_left_inner -->
 		
-		<img src="<?php bloginfo('template_directory');?>/images/hero.jpg"/>
+		<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero.jpg"/>
+		
+		<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero-tablet.jpg"/>
 		
 		
 	</div><!-- sec_one_left -->
@@ -212,6 +214,8 @@
 			</div><!-- sec_one_buttons -->
 				
 		</div><!-- sec_one_slide_wrapper -->
+		
+		<a class="button view_more_button" href="">View More Results</a>
 		
 		<span class="results_disclaimer">These results are exceptional and not to be expected in every case.</span><!-- results_disclaimer -->
 	

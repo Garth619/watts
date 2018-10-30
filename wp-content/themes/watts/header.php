@@ -50,6 +50,48 @@
 	
 	<header>
 		
+		<div class="mobile_logo_wrapper">
+			
+			<a class="mobile_logo" href="<?php bloginfo('url');?>">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				
+			</a><!-- mobile_logo -->
+			
+		</div><!-- mobile_logo_wrapper -->
+		
+		<div class="header_left">
+			
+			<div class="menu_wrapper">
+			
+				<span class="menu_bar"></span><!-- menu_bar -->
+				<span class="menu_bar"></span><!-- menu_bar -->
+				<span class="menu_bar"></span><!-- menu_bar -->
+			
+				<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+			
+		</div><!-- header_left -->
+		
+		<div class="header_right">
+			
+			<a class="tablet_logo" href="<?php bloginfo('url');?>">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+			
+			</a><!-- tablet_logo -->
+			
+			<div class="tablet_free_consult_wrapper">
+				
+				<span class="tablet_free_consult">Free Consultation</span><!-- tablet_free_consult -->
+				
+				<a class="tablet_phone" href="te:(800) 294-0055">(800) 294-0055</a><!-- tablet_phone -->
+				
+			</div><!-- tablet_free_consult_wrapper -->
+			
+		</div><!-- header_right -->
+		
 		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 	</header>

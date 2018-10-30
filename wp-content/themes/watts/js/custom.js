@@ -200,10 +200,17 @@ $('.sec_one_slider').slick({
 	nextArrow:".sec_one_button_right",
 	responsive: [
     {
-      breakpoint: 1066,
+      breakpoint: 1130,
       settings: {
       slidesToShow: 2,
       slidesToScroll: 2,
+     }
+   },
+   {
+      breakpoint: 767,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
      }
    }
    
