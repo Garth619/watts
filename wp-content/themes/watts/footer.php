@@ -37,9 +37,19 @@
 			
 			<div class="single_location loc_col">
 				
-				<span class="location_title">San Antonio</span><!-- location_title -->
+				<span class="location_title">Austin</span><!-- location_title -->
 				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+				<span class="address">811 Barton Springs Rd<br/> Suite 725<br/> Austin, TX 78704</span><!-- address -->
+				
+				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
+				
+			</div><!-- loc_col -->
+			
+			<div class="single_location loc_col">
+				
+				<span class="location_title">Santa Rosa</span><!-- location_title -->
+				
+				<span class="address">70 Stony Point Rd<br/> Suite A<br/> Santa Rosa, CA 95401</span><!-- address -->
 				
 				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
 				
@@ -49,7 +59,7 @@
 				
 				<span class="location_title">San Antonio</span><!-- location_title -->
 				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+				<span class="address">5726 W. Hausman Rd<br/> Suite 119<br/> San Antonio, TX 78249</span><!-- address -->
 				
 				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
 				
@@ -57,19 +67,9 @@
 			
 			<div class="single_location loc_col">
 				
-				<span class="location_title">San Antonio</span><!-- location_title -->
+				<span class="location_title">Brownsville</span><!-- location_title -->
 				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">San Antonio</span><!-- location_title -->
-				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
 				
 				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
 				
@@ -83,9 +83,9 @@
 			
 			<div class="single_location loc_col">
 				
-				<span class="location_title">San Antonio</span><!-- location_title -->
+				<span class="location_title">Odessa</span><!-- location_title -->
 				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+				<span class="address">620 N. Grant St<br/> Suite 1205<br/> Odessa, TX 797617</span><!-- address -->
 				
 				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
 				
@@ -93,9 +93,9 @@
 			
 			<div class="single_location loc_col">
 				
-				<span class="location_title">San Antonio</span><!-- location_title -->
+				<span class="location_title">Corpus Christi</span><!-- location_title -->
 				
-				<span class="address">4 Dominion Dr.<br/> Bldg 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+				<span class="address">13434 Leopard<br> Suite A-3<br> Corpus Christi, TX 78410</span><!-- address -->
 				
 				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
 				
@@ -110,6 +110,8 @@
 			</div><!-- loc_col -->
 			
 		</div><!-- location_columns -->
+		
+		<a class="button locations_button" href="">View All Locations</a>
 		
 	</div><!-- locations_inner -->
 	
