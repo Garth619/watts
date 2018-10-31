@@ -13,6 +13,7 @@ header {
 	width:83px;
 	height:100vh;
 	z-index: 10;
+	background: #fff;
 }
 
 
@@ -59,6 +60,11 @@ a.email {
 }
 
 
+.sticky_header {
+	display: none;
+}
+
+
 @media screen and (max-width: 1130px) {
 	
 	
@@ -96,7 +102,12 @@ a.email {
 				height: 31px;
 			}
 		}
-		.tablet_free_consult_wrapper {
+		
+	}
+	
+	
+	
+	.tablet_free_consult_wrapper {
 			display: flex;
 			flex-direction: column;
 			text-align: right;
@@ -120,6 +131,50 @@ a.email {
 				text-decoration: none;
 			}
 		}
+	
+	
+	.sticky_header {
+		display: flex;
+		width:100%;
+		position: fixed;
+		top:0;
+		left:0;
+		z-index:10;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 200ms ease-in-out;
+		.menu_wrapper {
+			flex-basis: 83px;
+			flex-shrink: 0;
+		}
+		.sticky_email {
+			flex-basis: 83px;
+			flex-shrink: 0;
+			background: $blueone;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			a {
+				display: block;
+				img {
+					width:44px;
+					height:33px;
+				}
+			}
+		}
+		.sticky_right {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			flex-grow: 1;
+			background: $greylight;
+		}
+	}
+	
+	
+	.sticky_header.visible {
+		opacity: 1;
+		visibility: visible
 	}
 	
 	
@@ -163,6 +218,28 @@ a.email {
 	}
 	
 
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 560px) {
+	
+	
+	.mobile_logo_wrapper {
+		
+		a.mobile_logo {
+			
+			img {
+				width:auto;
+				max-width:336px;
+				height:auto;
+				
+			}
+		}
+	}
+
+	
 	
 	
 } /* Media Query */

@@ -35,6 +35,18 @@ h1,h2,h3,h4 {
 }
 
 
+.gform_wrapper ul li ::-webkit-input-placeholder {
+  color: $bluedark; }
+.gform_wrapper ul li ::-moz-placeholder {
+  color: $bluedark; }
+ .gform_wrapper ul li :-moz-placeholder {
+   color: $bluedark; }
+ .gform_wrapper ul li :-ms-input-placeholder {
+   color: $bluedark; }
+ .gform_wrapper ul li ::-moz-placeholder {
+    opacity: 1; }
+
+
 
 @media screen and (max-width: 767px) {
 	

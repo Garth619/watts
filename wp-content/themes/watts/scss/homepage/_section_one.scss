@@ -238,6 +238,12 @@ svg#arrow {
 }
 
 
+
+a.view_more_button {
+	display: none;
+}
+
+
 span.results_disclaimer {
 	font-family: $poppins;
 	font-weight:500;
@@ -464,6 +470,12 @@ span.results_disclaimer {
 			 padding-bottom:0;
 		 }
 	 } 
+	 
+	 
+	 
+	 a.view_more_button {
+		 display: block;
+	 }
 	 
 	 
 	 span.results_disclaimer {

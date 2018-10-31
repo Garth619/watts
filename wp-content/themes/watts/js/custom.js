@@ -90,7 +90,7 @@ jQuery(document).ready(function($){
     }
 
 
-    //createWaypoint('section_two', '#contact_trigger', 'visible', 500, null, true);
+    createWaypoint('section_one', '.sticky_header', 'visible', 0, null, true);
    
     
     

@@ -96,6 +96,46 @@
 		
 	</header>
 	
+	<div class="sticky_header">
+		
+		
+			
+		<div class="menu_wrapper">
+			
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+			
+		
+		
+		<div class="sticky_email">
+			
+			<a href="mailto:">
+				
+				<?php echo file_get_contents("wp-content/themes/watts/images/ico-email-white.svg"); ?>
+				
+			</a>
+			
+		</div><!-- sticky_middle -->
+		
+		<div class="sticky_right">
+			
+			<div class="tablet_free_consult_wrapper">
+				
+				<span class="tablet_free_consult">Free Consultation</span><!-- tablet_free_consult -->
+				
+				<a class="tablet_phone" href="te:(800) 294-0055">(800) 294-0055</a><!-- tablet_phone -->
+				
+			</div><!-- tablet_free_consult_wrapper -->
+			
+		</div>
+		
+	</div><!-- sticky_header -->
+	
 	<div class="fixed_header">
 		
 		<div class="menu_wrapper">
