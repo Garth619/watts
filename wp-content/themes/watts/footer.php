@@ -103,7 +103,7 @@
 			
 			<div class="loc_col copyright_col">
 				
-				<span class="copyright_title">©2018 Watts Guerra LLP . All rights reserved.</span>
+				<span class="copyright_title">&copy;2018 Watts Guerra LLP . All rights reserved.</span>
 
 				<span class="copyright_disclaimer">Mikal Watts & Frank Guerra are the attorneys responsible for the content of this website. Our attorneys are all licensed to practice in the State of Texas. Mikal Watts, Francisco Guerra IV, and Jose G. "Joey" Gonzalez, Jr. are Board Certified in Personal Injury Trial Law by the Texas Board of Legal Specialization. Michael J. Murray are Board Certified in Civil Appellate Law by the Texas Board of Legal Specialization. Unless otherwise indicated, attorneys are not board certified. Principal office is located in San Antonio, Texas.</span>
 				
@@ -116,6 +116,59 @@
 	</div><!-- locations_inner -->
 	
 </div><!-- locations_wrapper -->
+
+<div class="social_bar">
+	
+	<div class="social_bar_inner">
+		
+		<div class="mobile_disclaimer">
+			
+			<span class="copyright_title">&copy;2018 Watts Guerra LLP . All rights reserved.</span>
+
+			<span class="copyright_disclaimer">Mikal Watts & Frank Guerra are the attorneys responsible for the content of this website. Our attorneys are all licensed to practice in the State of Texas. Mikal Watts, Francisco Guerra IV, and Jose G. "Joey" Gonzalez, Jr. are Board Certified in Personal Injury Trial Law by the Texas Board of Legal Specialization. Michael J. Murray are Board Certified in Civil Appellate Law by the Texas Board of Legal Specialization. Unless otherwise indicated, attorneys are not board certified. Principal office is located in San Antonio, Texas.</span>
+			
+		</div><!-- mobile_disclaimer -->
+		
+	<ul>
+		<li>
+			<a href="" target="_blank" rel="noopener">
+				
+				<?php echo file_get_contents("wp-content/themes/watts/images/googleplus.svg"); ?>
+				
+			</a>
+		</li>
+		<li>
+			<a href="" target="_blank" rel="noopener">
+				
+				<?php echo file_get_contents("wp-content/themes/watts/images/facebook.svg"); ?>
+				
+			</a>
+		</li>
+		<li>
+			<a href="" target="_blank" rel="noopener">
+				
+				<?php echo file_get_contents("wp-content/themes/watts/images/twitter.svg"); ?>
+				
+			</a>
+		</li>
+		<li>
+			<a href="" target="_blank" rel="noopener">
+				
+				<?php echo file_get_contents("wp-content/themes/watts/images/linkedin.svg"); ?>
+				
+			</a>
+		</li>
+	</ul>
+	
+	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank" rel="noopener">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
+		
+	</a>
+	
+	</div><!-- social_bar_inner -->
+	
+</div><!-- social_bar -->
 
 </footer>
 

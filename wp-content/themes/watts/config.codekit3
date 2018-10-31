@@ -94,6 +94,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/googleplus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/googleplus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/hero-intl-result.jpg": {
 		"ft": 16384,
 		"iS": 270282,
@@ -148,6 +168,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/ico-email-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/ico-email-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/ico-email.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -163,6 +193,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/ico-stars.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/ilawyer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/ilawyer.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -200,6 +240,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/logo-white.svg": {
 		"ft": 2097152,
@@ -389,6 +439,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/sp-04.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
