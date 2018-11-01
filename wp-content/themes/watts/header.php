@@ -48,7 +48,7 @@
 <body <?php body_class(); ?>>
 	
 	
-	<header>
+	<header><!-- fromt page header -->
 		
 		<div class="mobile_logo_wrapper">
 			
@@ -96,10 +96,8 @@
 		
 	</header>
 	
-	<div class="sticky_header">
+	<div class="sticky_header"><!-- sticky_header -->
 		
-		
-			
 		<div class="menu_wrapper">
 			
 			<span class="menu_bar"></span><!-- menu_bar -->
@@ -110,8 +108,6 @@
 			
 		</div><!-- menu_wrapper -->
 			
-		
-		
 		<div class="sticky_email">
 			
 			<a href="mailto:">
@@ -119,6 +115,14 @@
 				<?php echo file_get_contents("wp-content/themes/watts/images/ico-email-white.svg"); ?>
 				
 			</a>
+			
+			<div class="free_consult_bar">
+			
+			<span>Free Consultation</span>
+			
+			<a href="tel:(800) 294-0055">(800) 294-0055</a>
+			
+		</div><!-- free_consult_bar -->
 			
 		</div><!-- sticky_middle -->
 		
@@ -136,7 +140,7 @@
 		
 	</div><!-- sticky_header -->
 	
-	<div class="fixed_header">
+	<div class="fixed_header"><!-- along side -->
 		
 		<div class="menu_wrapper">
 			
@@ -155,6 +159,29 @@
 		</a>
 		
 	</div><!-- fixed_header -->
+	
+	
+	<div class="internal_header">
+		
+		<div class="internal_logo">
+		
+			<a class="" href="<?php bloginfo('url');?>">
+			
+				<img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/>
+			
+			</a>
+		
+		</div><!-- internal_logo -->
+		
+		<div class="free_consult_bar">
+			
+			<span>Free Consultation</span>
+			
+			<a href="tel:(800) 294-0055">(800) 294-0055</a>
+			
+		</div><!-- free_consult_bar -->
+		
+	</div><!-- internal_header -->
 				
 
 

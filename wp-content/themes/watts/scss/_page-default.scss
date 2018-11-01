@@ -1,0 +1,48 @@
+.internal_banner {
+	background-size:cover;
+	padding:0 0 0 83px;
+	height:547px;
+	width:100%;
+	position: relative;
+	img {
+		position: absolute;
+		top:0;
+		left:83px;
+		object-fit:cover;
+		width:calc(100% - 83px);
+		height:100%;
+		
+	}
+}
+
+
+
+
+.internal_banner_inner {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	max-width:835px;
+	margin:0px auto;
+	padding:190px 0 0;
+	span, a {
+		
+	}
+	span {
+		color:#fff;
+		display: block;
+		font-family: $poppins;
+		font-weight: 700;
+		line-height: 65px;
+		font-size:50px;
+		margin-bottom:18px;
+	}
+}
+
+
+
+
+	
+
+
+

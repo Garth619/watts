@@ -133,7 +133,7 @@
 		"oAP": "/images/hero-intl.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/hero-tablet.jpg": {
@@ -514,6 +514,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/internal-banner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/internal-banner.php",
 		"oF": 0
 		},
 	"/js/custom-min.js": {

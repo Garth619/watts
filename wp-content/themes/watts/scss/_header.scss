@@ -64,6 +64,37 @@ a.email {
 	display: none;
 }
 
+.internal_header {
+	display: none;
+}
+
+body:not(.page-template-template-home) .internal_header {
+	display: flex;
+	position: absolute;
+	top:0;
+	left:0;
+	height:85px;
+	width:100%;
+	align-items: center;
+	z-index:10;
+	.internal_logo {
+		flex-grow:1;
+		margin-left:129px;
+		a {
+			display: block;
+			img {
+				width:327px;
+				height:37px;
+			}
+		}
+	}
+	.free_consult_bar {
+		flex-basis:458px;
+		flex-shrink:0;
+	}
+}
+
+
 
 @media screen and (max-width: 1130px) {
 	
