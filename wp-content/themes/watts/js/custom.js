@@ -91,6 +91,7 @@ jQuery(document).ready(function($){
 
 
     createWaypoint('section_one', '.sticky_header', 'visible', 0, null, true);
+    createWaypoint('internal_main', '.sticky_header', 'visible', 0, null, true);
    
     
     

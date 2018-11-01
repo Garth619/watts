@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
 
+<div id="internal_main">
+
+
 <?php get_template_part( 'internal', 'banner' ); ?>
 
 		
@@ -13,6 +16,7 @@
 	
 -->
 
+</div><!-- internal_main -->
 
 
 <?php get_footer(); ?>

@@ -66,6 +66,9 @@ a.email {
 
 .internal_header {
 	display: none;
+	.menu_wrapper {
+		display: none;
+	}
 }
 
 body:not(.page-template-template-home) .internal_header {
@@ -131,6 +134,9 @@ body:not(.page-template-template-home) .internal_header {
 			img {
 				width:280px;
 				height: 31px;
+			}
+			img.white_logo {
+				display: none;
 			}
 		}
 		
@@ -209,7 +215,47 @@ body:not(.page-template-template-home) .internal_header {
 	}
 	
 	
+	
+	
+body:not(.page-template-template-home) .internal_header {
+	display: none;
+}
+
+
+
+body:not(.page-template-template-home) {
+		header {
+			a.tablet_logo {
+				img.dark_logo {
+					display: none;
+				}
+				img.white_logo {
+					display: block;
+				}
+			}
+		}
+	}
+
+
+
+body:not(.page-template-template-home) {
+	header {
+		.header_right {
+			background: $bluedark;
+		}
+		.tablet_free_consult_wrapper {
+			background:$bluetwo;
+			flex-basis: 214px;
+			span, a {
+				color:#fff;
+			}
+		}
+	}
+}
+
+	
 } /* Media Query */
+
 
 
 
@@ -247,6 +293,21 @@ body:not(.page-template-template-home) .internal_header {
 			flex-grow:1;
 		}
 	}
+	
+	
+body:not(.page-template-template-home) {
+	header {
+		.header_right {
+			background: $greylight;
+		}
+		.tablet_free_consult_wrapper {
+			background:transparent;
+			span, a {
+				color:$bluetwo;
+			}
+		}
+	}
+}
 	
 
 	

@@ -78,7 +78,9 @@
 			
 			<a class="tablet_logo" href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				<img class="dark_logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				
+				<img class="white_logo" src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/>
 			
 			</a><!-- tablet_logo -->
 			
@@ -116,14 +118,7 @@
 				
 			</a>
 			
-			<div class="free_consult_bar">
-			
-			<span>Free Consultation</span>
-			
-			<a href="tel:(800) 294-0055">(800) 294-0055</a>
-			
-		</div><!-- free_consult_bar -->
-			
+						
 		</div><!-- sticky_middle -->
 		
 		<div class="sticky_right">
@@ -162,6 +157,16 @@
 	
 	
 	<div class="internal_header">
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
 		
 		<div class="internal_logo">
 		
