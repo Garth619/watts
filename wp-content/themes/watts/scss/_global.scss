@@ -103,13 +103,16 @@ h1,h2,h3,h4 {
 		text-transform: lowercase;
 		line-height: 90px;
 		margin-bottom: 68px;
-		background: linear-gradient(to right, #0750e0 0%,#1d3ec0 100%);
+		background: $textgrad;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
 	h1.centered {
 		text-align: center;
 		padding-top:82px;
+		display: inline-block;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 
