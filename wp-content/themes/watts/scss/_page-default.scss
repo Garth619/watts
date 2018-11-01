@@ -40,6 +40,18 @@
 }
 
 
+#internal_main {
+	
+}
+
+.internal_container {
+	min-height: 400px;
+}
+
+.one_col {
+	padding:0 125px;
+}
+
 .two_col {
 	display: flex;
 	width:100%;
@@ -195,6 +207,11 @@
 		display: none;
 	}
 	
+	.one_col {
+		padding-left:60px;
+		padding-right:60px;
+	}
+	
 	.two_col {
 		padding-left:0;
 	}
@@ -214,6 +231,10 @@
 	padding:0 40px 40px;
 }	
 
+
+.one_col {
+	padding:0 40px;
+}
 
 .sidebar_wrapper {
 	padding: 50px 40px 16px;

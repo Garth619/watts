@@ -241,5 +241,22 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 });
 
 
+// banner check, if banner add class to body that styles header a certain way
+
+
+	if ($(".internal_banner")[0]){
+   	
+   	$('body').addClass('banner');
+   
+  }
+  
+  
+  else {
+	  
+	  $('body').addClass('no-banner');
+	  
+  }
+
+
   
 }); // document ready

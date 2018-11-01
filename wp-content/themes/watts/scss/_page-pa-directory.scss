@@ -1,0 +1,387 @@
+.pa_directory {
+	padding:38px 0 40px 0;
+	ul {
+		max-width: 1500px;
+		margin:0px auto 0;
+		li {
+			list-style: none;
+			a {
+				color:$bluedark;
+				text-decoration: none;
+				font-family: $poppins;
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			margin-bottom:143px;
+		}
+		> li {
+			> a {
+					text-transform: uppercase;
+					font-weight: 700;
+					display: block;
+					font-size:20px;
+					letter-spacing: 0.2em;
+					line-height: 23px;
+					border-bottom:3px solid $blueone;
+					padding-bottom:15px;
+			}
+		}
+	}
+	ul.sub-menu {
+		margin:63px 0 152px 0;
+		&:after {
+			content:"";
+			display: block;
+			clear:both;
+		}
+		li {
+			text-transform: lowercase;
+			font-weight: 600;
+			font-size:17px;
+			margin-bottom:0px;
+			float:left;
+			//background:red;
+			height:50px;
+			width:22%;
+			margin-right:4%;
+			display: flex;
+			align-items: center;
+			&:nth-of-type(4n + 4) {
+				margin-right:0;
+			}
+			a {
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$bluetwo;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1230px) {
+	
+	
+	
+.pa_directory {
+	
+	ul {
+		
+		li {
+			
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			
+		}
+		> li {
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		&:after {
+			
+		}
+		li {
+			width:31%;
+			margin-right:3.5%;
+			&:nth-of-type(4n + 4) {
+				margin-right:3.5%;
+			}
+			&:nth-of-type(3n + 3) {
+				margin-right:0%;
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	
+.pa_directory {
+	
+	ul {
+		
+		li {
+			
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			
+		}
+		> li {
+				&:last-of-type {
+					ul.sub-menu {
+						&:last-of-type {
+							margin-bottom:45px;
+						}
+					}
+				}
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		&:after {
+			
+		}
+		li {
+			
+			&:nth-of-type(4n + 4) {
+				
+			}
+			&:nth-of-type(3n + 3) {
+				
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 950px) {
+	
+	
+.pa_directory {
+	max-width: 650px;
+	margin-left:auto;
+	margin-right:auto;
+	ul {
+		
+		li {
+			
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			
+		}
+		> li {
+				
+				&:last-of-type {
+					ul.sub-menu {
+						&:last-of-type {
+							
+						}
+					}
+				}
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		&:after {
+			
+		}
+		li {
+			width:47%;
+			margin-right:5%;
+			&:nth-of-type(4n + 4) {
+				margin-right:5%;
+			}
+			&:nth-of-type(3n + 3) {
+				margin-right:5%;
+			}
+			&:nth-of-type(2n + 2) {
+				margin-right:0%;
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+.pa_directory {
+	padding-bottom:20px;
+	ul {
+		
+		li {
+			
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			
+		}
+		> li {
+				
+				&:last-of-type {
+					ul.sub-menu {
+						&:last-of-type {
+							margin-bottom: 25px;
+						}
+					}
+				}
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		margin: 29px 0 39px 0;
+		&:after {
+			
+		}
+		li {
+			
+			&:nth-of-type(4n + 4) {
+				
+			}
+			&:nth-of-type(3n + 3) {
+				
+			}
+			&:nth-of-type(2n + 2) {
+				
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+	
+	
+
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 665px) {
+	
+	
+	
+.pa_directory {
+	max-width:450px;
+	ul {
+		
+		li {
+			
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li:not(.menu-item-has-children) {
+			
+		}
+		> li {
+				
+				&:last-of-type {
+					ul.sub-menu {
+						&:last-of-type {
+							
+						}
+					}
+				}
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		&:after {
+			
+		}
+		li {
+			width:100%;
+			margin-left:auto;
+			margin-right:auto;
+			&:nth-of-type(4n + 4) {
+				margin-right:auto;
+			}
+			&:nth-of-type(3n + 3) {
+				margin-right:auto;
+			}
+			&:nth-of-type(2n + 2) {
+				margin-right:auto;
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+	
+	
+} /* Media Query */
+
+
+
+
+

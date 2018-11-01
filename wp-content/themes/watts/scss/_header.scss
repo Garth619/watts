@@ -12,7 +12,7 @@ header {
 	left:0;
 	width:83px;
 	height:100vh;
-	z-index: 10;
+	z-index: 11;
 	background: #fff;
 }
 
@@ -76,7 +76,7 @@ body:not(.page-template-template-home) .internal_header {
 	position: absolute;
 	top:0;
 	left:0;
-	height:85px;
+	height:86px;
 	width:100%;
 	align-items: center;
 	z-index:10;
@@ -94,6 +94,14 @@ body:not(.page-template-template-home) .internal_header {
 	.free_consult_bar {
 		flex-basis:458px;
 		flex-shrink:0;
+	}
+}
+
+
+body.no-banner {
+	.internal_header {
+		background: $bluedark;
+		position: static;
 	}
 }
 
