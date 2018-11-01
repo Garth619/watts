@@ -176,6 +176,22 @@ h1,h2,h3,h4 {
 
 
 
+@media screen and (max-width: 1130px) {
+	
+	
+	.content {
+		h1 {
+			font-size: 70px;
+			line-height: 80px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 767px) {
 	

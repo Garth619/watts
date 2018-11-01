@@ -135,15 +135,51 @@
 }
 
 
+@media screen and (max-width: 1600px) {
+	
+	
+	
+		
+	.container {
+		padding: 0 85px 100px 85px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1340px) {
+	
+	
+	
+	.two_col {
+		display: block;
+	}
+	
+	
+	
+	.container {
+		padding: 0 55px 100px;
+		margin: 80px 0 0;
+	}
+
+	
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 1130px) {
 	
 	
 	.internal_banner {
-		img {
-			width:100%;
-			left:0;
-		}
+		display: none;
+	}
+	
+	.two_col {
+		padding-left:0;
 	}
 	
 	
