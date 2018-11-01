@@ -230,5 +230,16 @@ $('.sec_one_slider').slick({
 $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
+
+// sidebar
+
+
+$('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', function(e) {
+	
+	$(this).next('ul.sub-menu').slideToggle(400);
+  
+});
+
+
   
 }); // document ready
