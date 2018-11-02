@@ -303,19 +303,25 @@ body:not(.page-template-template-home) {
 	}
 	
 	
+
 body:not(.page-template-template-home) {
 	header {
 		.header_right {
-			background: $greylight;
+			background: $bluedark;
+			justify-content: flex-end;
 		}
 		.tablet_free_consult_wrapper {
-			background:transparent;
+			background:$blueone;
+			flex-basis: 214px;
+			flex-grow: 0;
 			span, a {
-				color:$bluetwo;
+				color:#fff;
 			}
 		}
 	}
+
 }
+
 	
 
 	
@@ -323,7 +329,7 @@ body:not(.page-template-template-home) {
 } /* Media Query */
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 350px) {
 	
 	
 	.mobile_logo_wrapper {
@@ -331,7 +337,7 @@ body:not(.page-template-template-home) {
 		a.mobile_logo {
 			
 			img {
-				width:auto;
+				width:100%;
 				max-width:336px;
 				height:auto;
 				
