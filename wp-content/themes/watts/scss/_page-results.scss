@@ -131,7 +131,7 @@ a.cr_read_more {
 @media screen and (max-width: 1130px) {
 	
 	
-	body.page-template-template-caseresults {
+	body.page-template-template-caseresults, body.page-template-template-testimonials {
 		#internal_main {
 			&:before {
 				display: none;
@@ -207,7 +207,7 @@ a.cr_read_more {
 	
 	
 	
-	body.page-template-template-caseresults {
+	body.page-template-template-caseresults, body.page-template-template-testimonials {
 		#internal_main {
 			&:before {
 				

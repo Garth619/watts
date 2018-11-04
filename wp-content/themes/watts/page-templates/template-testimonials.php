@@ -30,6 +30,8 @@ get_header(); ?>
 			
 			<?php echo file_get_contents("wp-content/themes/watts/images/arrow.svg"); ?>
 			
+			<span class="review_blue_line"></span><!-- review_blue_line -->
+			
 		</div><!-- reviews_slider_left -->
 		
 		<div class="reviews_slider">
@@ -58,6 +60,8 @@ get_header(); ?>
 		
 		<div class="reviews_slider_right reviews_slider_button">
 			
+			<span class="review_blue_line"></span><!-- review_blue_line -->
+			
 			<?php echo file_get_contents("wp-content/themes/watts/images/arrow.svg"); ?>
 			
 		</div><!-- reviews_slider_right -->
@@ -67,9 +71,75 @@ get_header(); ?>
 </div><!-- reviews_slider_wrapper -->
 
 
-<div class="internal_container">
+<div class="internal_container reviews_wrapper">
 	
+	<div class="review_col">
 	
+	<div class="single_review">
+		
+		<div class="single_review_inner">
+		
+			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+		
+			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+		
+		</div><!-- single_review_inner -->
+		
+	</div><!-- single_review -->
+	
+	<div class="single_review">
+		
+		<div class="single_review_inner">
+		
+			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+		
+			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+		
+		</div><!-- single_review_inner -->
+		
+	</div><!-- single_review -->
+	
+	<div class="single_review">
+		
+		<div class="single_review_inner">
+		
+			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+		
+			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+		
+		</div><!-- single_review_inner -->
+		
+	</div><!-- single_review -->
+	
+	</div><!-- review_col -->
+	
+	<div class="review_col">
+	
+	<div class="single_review">
+		
+		<div class="single_review_inner">
+		
+			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+		
+			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+		
+		</div><!-- single_review_inner -->
+		
+	</div><!-- single_review -->
+	
+	<div class="single_review">
+		
+		<div class="single_review_inner">
+		
+			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+		
+			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+		
+		</div><!-- single_review_inner -->
+		
+	</div><!-- single_review -->
+
+	</div><!-- review_col -->
 		
 </div><!-- internal_container -->
 

@@ -1,11 +1,13 @@
 
+
+
+
 .reviews_slider_wrapper {
 	width:100%;
-	padding-bottom:200px;
 	margin-top: -80px;
-	padding-top:148px;
 	position: relative;
-	&:after {
+	padding:148px 145px 0;
+   &:after {
 		content:"";
 		display: block;
 		width:100%;
@@ -98,5 +100,166 @@
 		letter-spacing: 0.15em;
 	}
 }
+
+
+.reviews_wrapper {
+	width:100%;
+	max-width:1610px;
+	margin:145px auto 150px;
+	display: flex;
+	justify-content: space-between;
+	padding:0 145px;
+}
+
+.review_col {
+	flex-basis:46%;
+	.single_review {
+		&:last-of-type {
+			border-bottom:7px solid $greylight;
+		}
+	}
+}
+
+
+.single_review {
+	border-top:7px solid $greylight;
+	min-height:365px;
+	display: flex;
+	align-items: center;
+	padding:60px 0;
+	span {
+		font-family: $poppins;
+		display: block;
+	}
+	span.single_review_content {
+		font-weight:600;
+		color:$bluedark;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	span.single_review_name {
+		color:$blueone;
+		text-transform: uppercase;
+		font-size: 15px;
+		letter-spacing: 0.15em;
+		font-weight: 700;
+		margin:40px 0 0;
+	}
+}
+
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+	.reviews_slider_wrapper {
+		margin:80px 0 0;
+		padding: 100px 60px 0;
+	}
+	
+	
+.reviews_wrapper {
+	padding-left:60px;
+	padding-right:60px;
+}
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+.reviews_slider_inner {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.reviews_slider_button {
+	margin-top:0;
+	margin-bottom:0px;
+	position: relative;
+	&:hover {
+		svg#arrow {
+			
+		}
+	}
+	svg {
+		
+	}
+	span.review_blue_line {
+		width:1px;
+		height:37px;
+		background: $blueone;
+		display: block;
+		position: absolute;
+		top:32px;
+	}
+}
+
+.reviews_slider_left {
+	order:2;
+	svg {
+		
+	}
+	span.review_blue_line {
+		right:0;
+	}
+	
+}
+
+.reviews_slider_right {
+	order:3;
+	span.review_blue_line {
+		left:0;
+	}	
+}
+
+
+.reviews_slider {
+	width:100%;
+	order:1;
+}
+
+
+
+
+
+.reviews_single_slide {
+	padding: 85px 0 72px;
+	img.reviews_logo {
+		
+	}
+	span.reviews_description {
+		font-size: 55px;
+    line-height: 65px;
+	}
+	span.reviews_date {
+	
+	}
+}
+
+
+.reviews_wrapper {
+	margin: 105px auto;
+}
+	
+
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	.reviews_wrapper {
+		display: block;
+	}
+	
+	
+	
+	
+} /* Media Query */
 
 
