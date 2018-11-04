@@ -1,0 +1,128 @@
+body.page-template-template-caseresults {
+	#internal_main {
+		&:before {
+			content:"";
+			display: block;
+			width:3px;
+			height:130px;
+			background: $blueone;
+			margin:-50px auto 0;
+			position: relative;
+			z-index: 1;
+		}
+	}
+}
+
+
+
+.case_results_wrapper {
+	text-align: center;
+	margin:30px 0 0;
+	.single_case_results {
+		max-width:1340px;
+		margin:0 auto 95px;
+		padding-bottom:112px;
+		border-bottom:4px solid #f2f2f2;
+		transition: padding 400ms ease-in-out;
+		&:last-of-type {
+			border:none;
+			margin-bottom: 20px;
+		}
+		.single_case_results_inner {
+			max-width:975px;
+			margin:0 auto;
+		}
+		img.cr_svg {
+			width:80px;
+			height:80px;
+			display: block;
+			margin:0 auto 18px;
+		}
+		span.cr_single_title {
+			color:$bluedark;
+			font-size:65px;
+			display: block;
+			line-height: 75px;
+			max-width: 866px;
+			margin:0 auto;
+			font-family: $unna;
+		}
+	}
+}
+
+
+
+.cr_stats {
+	border-top:3px solid $blueone;
+	border-bottom:3px solid $blueone;
+	display: flex;
+	justify-content: space-between;
+	padding:30px 45px;
+	margin:85px 0 0;
+	.single_stat {
+		span {
+			display: block;
+			text-transform: uppercase;
+			font-family: $poppins;
+			
+		}
+		span.stat_title {
+			color:$blueone;
+			letter-spacing: 0.05em;
+			font-size: 15px;
+			margin-bottom:10px;
+			font-weight:700;
+		}
+		span.stat_amount {
+			color:$bluedark;
+			font-weight: 400;
+			font-size:22px;
+			font-weight:500;
+		}
+	}
+}
+
+
+.cr_single_content {
+	color:#5b6372;
+	margin:70px 0 0;
+}
+
+a.cr_read_more {
+	font-weight:600;
+	line-height: 30px;
+	cursor: pointer;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+	position: relative;
+	z-index: 1;
+	
+}
+
+
+
+.read_more_cr_content {
+	display: none;
+	position: relative;
+	top:-35px;
+	p {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+
+.case_results_wrapper {
+	.single_case_results.fade {
+		padding-bottom:77px;
+		transition-delay: 800ms;
+		a.cr_read_more {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+}
+

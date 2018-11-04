@@ -231,7 +231,9 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
 
-// sidebar
+
+/* Sidebar
+--------------------------------------------------------------------------------------- */
 
 
 $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', function(e) {
@@ -241,7 +243,8 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 });
 
 
-// banner check, if banner add class to body that styles header a certain way
+/* banner check, if banner add class to body that styles header a certain way
+--------------------------------------------------------------------------------------- */
 
 
 	if ($(".internal_banner")[0]){
@@ -256,6 +259,17 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 	  $('body').addClass('no-banner');
 	  
   }
+  
+
+/* Case Results Page Read More
+--------------------------------------------------------------------------------------- */
+
+
+$('a.cr_read_more').on('click', function(e) {
+  
+	$(this).parents('.single_case_results').addClass('fade').find('.read_more_cr_content').delay(800).slideDown(400);
+
+});
 
 
   

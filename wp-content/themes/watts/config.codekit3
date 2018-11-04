@@ -158,6 +158,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/ico-bull.png": {
+		"ft": 32768,
+		"iS": 20587,
+		"oA": 0,
+		"oAP": "/images/ico-bull.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/ico-bull.svg": {
 		"ft": 2097152,
 		"miP": 0,

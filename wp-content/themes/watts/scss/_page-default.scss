@@ -1,6 +1,5 @@
 .internal_banner {
-	background-size:cover;
-	padding:0 0 0 83px;
+	padding:0 0 0 0px;
 	height:547px;
 	width:100%;
 	position: relative;
@@ -24,7 +23,7 @@
 	text-align: center;
 	max-width:835px;
 	margin:0px auto;
-	padding:190px 0 0 0;
+	padding: 217px 0 0 0;
 	span, a {
 		
 	}
@@ -36,6 +35,13 @@
 		line-height: 65px;
 		font-size:50px;
 		margin-bottom:18px;
+	}
+	h1 {
+		background: transparent;
+		-webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    color:#fff;
+    margin-bottom: 14px;
 	}
 }
 
