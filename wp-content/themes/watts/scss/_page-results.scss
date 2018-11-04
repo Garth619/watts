@@ -126,3 +126,169 @@ a.cr_read_more {
 	}
 }
 
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+	body.page-template-template-caseresults {
+		#internal_main {
+			&:before {
+				display: none;
+			}
+		}
+		.internal_banner {
+			height:auto;
+			img {
+				display: none;
+			}
+		}
+		.internal_banner_inner {
+			padding: 81px 0 0 0;
+			h1 {
+				background: $textgrad;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+		a.button {
+			display: none;
+		}
+	}
+	
+	.case_results_wrapper {
+		margin: 87px 0 0;
+	}
+	
+
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+.case_results_wrapper {
+	
+	.single_case_results {
+		padding-bottom: 94px;
+		&:last-of-type {
+			
+		}
+		.single_case_results_inner {
+			
+		}
+		img.cr_svg {
+			
+		}
+		span.cr_single_title {
+			font-size: 52px;
+			line-height: 61px;
+		}
+	}
+	.single_case_results.fade {
+		padding-bottom: 67px;
+	}
+}
+
+
+.cr_stats {
+	margin: 67px 0 0;
+}
+
+
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	body.page-template-template-caseresults {
+		#internal_main {
+			&:before {
+				
+			}
+		}
+		.internal_banner {
+			
+			img {
+				
+			}
+		}
+		.internal_banner_inner {
+			padding: 55px 0 0 0;
+			h1 {
+				
+			}
+		}
+		a.button {
+			
+		}
+	}
+	
+	.case_results_wrapper {
+    margin: 63px 0 0;
+	}
+	
+	
+.case_results_wrapper {
+	
+	.single_case_results {
+		padding-bottom: 59px;
+		margin: 0 auto 63px;
+		&:last-of-type {
+			
+		}
+		.single_case_results_inner {
+			
+		}
+		img.cr_svg {
+			
+		}
+		span.cr_single_title {
+			font-size: 36px;
+			line-height: 45px;
+			max-width: 486px;
+		}
+	}
+	.single_case_results.fade {
+		padding-bottom: 32px;
+	}
+}
+
+
+.cr_stats {
+  margin: 44px auto 0;
+  display: block;
+  max-width:280px;
+}
+
+.cr_single_content {
+  color: #5b6372;
+  margin: 57px auto 0;
+  max-width:540px;
+}
+
+
+.single_stat {
+	margin-bottom:35px;
+	&:last-of-type {
+		margin-bottom:0;
+	}
+}
+
+	a.cr_read_more {
+		line-height: 25px;
+		&:after {
+			display: none;
+		}
+	}
+
+	  
+	
+	
+} /* Media Query */
