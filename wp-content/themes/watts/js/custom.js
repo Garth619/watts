@@ -218,6 +218,20 @@ $('.sec_one_slider').slick({
 	]
  });
  
+ 
+ 
+ 
+ 
+ $('.reviews_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	arrows:true,
+	prevArrow:".reviews_slider_left",
+	nextArrow:".reviews_slider_right",
+	adaptiveHeight: true
+ });
+ 
 
  
 
