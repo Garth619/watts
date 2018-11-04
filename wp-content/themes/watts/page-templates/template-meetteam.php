@@ -8,7 +8,7 @@ get_header(); ?>
 		
 	<h1 class="centered"><?php the_title();?></h1>
 	
-	<div class="att_attorneys">
+	<div class="att_partners">
 		
 		<div class="single_attorney">
 			
@@ -59,7 +59,7 @@ get_header(); ?>
 		</div><!-- single_attorney -->
 		
 		
-	</div><!-- att_attorneys -->
+	</div><!-- att_partners -->
 
 	<div class="internal_container meetteam_wrapper">
 		
