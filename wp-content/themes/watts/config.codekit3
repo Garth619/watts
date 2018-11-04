@@ -61,6 +61,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/att-bio.jpg": {
+		"ft": 16384,
+		"iS": 212321,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/att-bio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/att-placeholder.jpg": {
 		"ft": 16384,
 		"iS": 24054,
@@ -78,17 +89,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/att-s.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/att-XL.jpg": {
-		"ft": 16384,
-		"iS": 212321,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/att-XL.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
