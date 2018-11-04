@@ -36,25 +36,26 @@ get_header(); ?>
 		
 		<div class="reviews_slider">
 			
-			<div class="reviews_single_slide">
+			<?php if(get_field('reviews_slider_page')): ?>
+			 
+				<?php while(has_sub_field('reviews_slider_page')): ?>
+			 
+					<div class="reviews_single_slide">
 				
-				<img class="reviews_logo" src="<?php bloginfo('template_directory');?>/images/news-usa.jpg"/><!-- reviews_logo -->
+					<?php $logo = get_sub_field( 'logo' ); ?>
+					
+					<img class="reviews_logo" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+		
 				
-				<span class="reviews_description">“Watts has soared to the top of the highly competitive personal injury law business.” </span><!-- reviews_description -->
+					<span class="reviews_description"><?php the_sub_field( 'testimonial_intro_page' ); ?></span><!-- reviews_description -->
 				
-				<span class="reviews_date">March 12, 2003</span><!-- reviews_date -->
-				
-			</div><!-- reviews_single_slide -->
-			
-			<div class="reviews_single_slide">
-				
-				<img class="reviews_logo" src="<?php bloginfo('template_directory');?>/images/news-usa.jpg"/><!-- reviews_logo -->
-				
-				<span class="reviews_description">“Watts has soared to the top of the highly competitive personal injury law business.”</span><!-- reviews_description -->
-				
-				<span class="reviews_date">March 12, 2003</span><!-- reviews_date -->
+					<span class="reviews_date"><?php the_sub_field( 'date' ); ?></span><!-- reviews_date -->
 				
 			</div><!-- reviews_single_slide -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 		</div><!-- reviews_slider -->
 		
@@ -74,70 +75,51 @@ get_header(); ?>
 <div class="internal_container reviews_wrapper">
 	
 	<div class="review_col">
+		
+		<?php if(get_field('reviews_lower_slider')): ?>
+		 
+			<?php while(has_sub_field('reviews_lower_slider')): ?>
+		 
+				<div class="single_review">
+		
+					<div class="single_review_inner">
+		
+						<span class="single_review_content"><?php the_sub_field( 'testimonial' ); ?></span><!-- single_review_content -->
+		
+						<span class="single_review_name"><?php the_sub_field( 'name' ); ?></span><!-- single_review_name -->
+		
+					</div><!-- single_review_inner -->
+		
+			</div><!-- single_review -->
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 	
-	<div class="single_review">
 		
-		<div class="single_review_inner">
-		
-			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
-		
-			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
-		
-		</div><!-- single_review_inner -->
-		
-	</div><!-- single_review -->
-	
-	<div class="single_review">
-		
-		<div class="single_review_inner">
-		
-			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
-		
-			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
-		
-		</div><!-- single_review_inner -->
-		
-	</div><!-- single_review -->
-	
-	<div class="single_review">
-		
-		<div class="single_review_inner">
-		
-			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
-		
-			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
-		
-		</div><!-- single_review_inner -->
-		
-	</div><!-- single_review -->
-	
 	</div><!-- review_col -->
 	
 	<div class="review_col">
 	
-	<div class="single_review">
+	<?php if(get_field('reviews_lower_slider_two')): ?>
+		 
+			<?php while(has_sub_field('reviews_lower_slider_two')): ?>
+		 
+				<div class="single_review">
 		
-		<div class="single_review_inner">
+					<div class="single_review_inner">
 		
-			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
+						<span class="single_review_content"><?php the_sub_field( 'testimonial' ); ?></span><!-- single_review_content -->
 		
-			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
+						<span class="single_review_name"><?php the_sub_field( 'name' ); ?></span><!-- single_review_name -->
 		
-		</div><!-- single_review_inner -->
+					</div><!-- single_review_inner -->
 		
-	</div><!-- single_review -->
-	
-	<div class="single_review">
-		
-		<div class="single_review_inner">
-		
-			<span class="single_review_content">Watts brilliant cross examination techniques were impressive to the jury and a major factor in the jury awarding punitive damages against Chrysler.</span><!-- single_review_content -->
-		
-			<span class="single_review_name">Reese Joyce</span><!-- single_review_name -->
-		
-		</div><!-- single_review_inner -->
-		
-	</div><!-- single_review -->
+			</div><!-- single_review -->
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 
 	</div><!-- review_col -->
 		
