@@ -7,6 +7,28 @@ get_header(); ?>
 
 <div id="internal_main" class="one_col">
 	
+	<div class="att_bio_video mobile">
+					
+					<a class="" href="">
+						
+						<div class="bio_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/att-bio.jpg"/>
+						
+						</div><!-- bio_img_wrapper -->
+						
+						<div class="bio_video_title_wrapper">
+							
+							<div class="bio_play_wrapper"></div><!-- bio_play_wrapper -->
+							
+							<span class="bio_video_title">Hear from the Attorney</span><!-- bio_video_title -->
+							
+						</div><!-- bio_video_title_wrapper -->
+					
+					</a>
+					
+				</div><!-- att_bio_video -->
+		
 	<h1 class="centered"><?php the_title();?></h1>
 
 	<div class="internal_container bio_wrapper">
@@ -54,6 +76,22 @@ get_header(); ?>
 			</div><!-- att_bio_intro_right -->
 			
 		</div><!-- att_bio_intro -->
+		
+		<div class="att_bio_content content">
+			
+			<p>Mr. Watts has been admitted to practice pro hoc vice in New, York, Alabama, Florida, New York, Minnesota, Mississippi, and California. Mr. Watts has defended punitive damages obtained in federal court by oral argument before the United States Court of Appeals for the Fifth Circuit.</p>
+
+
+<blockquote>Mr. Watts’ litigation against Bridgestone/Firestone, Inc. and Ford Motor Company resulted in resolving the most significant product liability case in the country. The terms of the settlement in the Bailey case were unprecedented in American history for a case of this type; not only monetarily, but by virtue of what the companies agreed to do with respect to the disclosure of information relating to their own investigations into the alleged defects with their products and their corporate safety policies and practices.</blockquote>
+
+
+<p>Watts Guerra LLP is nationally recognized as one of two firms leading in the pursuit of hundreds of claims brought nationwide against Bridgestone/Firestone, Inc. and Ford Motor Company.</p>
+
+<p>Mr. Watts was instrumental in bringing to light Ford’s quiet efforts to recall these defective tires in foreign countries while consumers in the United States continued to be injured or killed riding on the same tires. This litigation and settlement has been chronicled on the ABC World News Tonight, CBS Evening News, Dateline NBC, and CNBC, and in the Wall Street Journal, USA Today, Washington Post, Associated Press, and all other major news sources in this country and around the world.</p>
+
+<p>Mikal is Board Certified in Personal Injury Trial Law by the Texas Board of Legal Specialization, and is a Martindale-Hubbel AV Rated Lawyer.</p>
+			
+		</div><!-- att_bio_content -->
 	
 	</div><!-- internal_container -->
 

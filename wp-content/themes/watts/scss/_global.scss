@@ -182,6 +182,27 @@ h1,h2,h3,h4 {
 			}
 		}
 	}
+	blockquote {
+		// border-left:3px solid $blueone;
+		display: block;
+		font-size:20px;
+		line-height: 45px;
+		font-weight: 600;
+		color:$bluedark;
+		padding-left:45px;
+		position: relative;
+		margin:75px 0 64px;
+		&:before {
+			content:"";
+			display: block;
+			width:3px;
+			height:calc(100% - 31px);
+			background: $blueone;
+			position: absolute;
+			top:17px;
+			left:0;
+		}
+	}
 }
 
 
@@ -194,7 +215,13 @@ h1,h2,h3,h4 {
 	}
 	
 	.content {
-		
+		blockquote {
+			margin: 69px 0 64px;
+			&:before {
+				height: calc(100% - 22px);
+				top: 10px;
+			} 
+		}
 	}
 	
 	
@@ -232,7 +259,11 @@ img.aligncenter {
 
 
 .content {
-	
+	blockquote {
+		margin: 51px 0 53px;
+		line-height: 42px;
+		padding-left: 37px;
+	}
 }
 	
 	
