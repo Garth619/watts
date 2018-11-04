@@ -157,12 +157,13 @@ h1,h2,h3,h4 {
 			}
 		}
 	}
-	a {
+	a, span.go_back {
 		color:$blueone;
 		transition: all 200ms ease-in-out;
 		text-decoration: none;
 		display: inline-block;
 		position: relative;
+		cursor: pointer;
 		&:after {
 			content:"";
 			display: block;
