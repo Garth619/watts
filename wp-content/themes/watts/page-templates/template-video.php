@@ -11,303 +11,69 @@ get_header(); ?>
 	
 <div class="internal_container video_wrappper">
 	
-	
-	<div class="video_cat_wrapper">
-	
-	
-	<div class="video_cat_title_wrapper">
 		
-		<span class="video_cat_title">Trial Video</span>
+		<?php if(get_field('video_center')): ?>
+		 
+			<?php while(has_sub_field('video_center')): ?>
+			
+			<div class="video_cat_wrapper">
+			
+				<div class="video_cat_title_wrapper">
 		
-		<span class="blue_line"></span><!-- blue_line -->
+					<span class="video_cat_title">Trial Video</span>
 		
-	</div><!-- video_cat_title_wrapper -->
-	
-	<div class="video_cat">
+					<span class="blue_line"></span><!-- blue_line -->
 		
-		<div class="single_video">
+				</div><!-- video_cat_title_wrapper -->
+				
+				<?php if(get_sub_field('videos')): ?>
+				
+					<div class="video_cat">
+				 
+					<?php while(has_sub_field('videos')): ?>
+				 
+						<div class="single_video">
 			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
+						<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
 				
-				<div class="img_scale_wrapper">
+						<div class="img_scale_wrapper">
 				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
+							<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
 				
-				</div><!-- img_scale_wrapper -->
+						</div><!-- img_scale_wrapper -->
 				
-				<div class="video_text_wrapper">
+						<div class="video_text_wrapper">
 					
-					<div class="play_button_wrapper">
+							<div class="play_button_wrapper">
 						
-						<div class="play_button"></div><!-- play_button -->
+								<div class="play_button"></div><!-- play_button -->
 						
-					</div><!-- play_button_wrapper -->
+							</div><!-- play_button_wrapper -->
 					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
+							<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
 					
-				</div><!-- video_text_wrapper -->
+					</div><!-- video_text_wrapper -->
 				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
+				</a>
 			
 		</div><!-- single_video -->
 
-	</div><!-- video_cat -->
-	
-	</div><!-- video_cat_wrapper -->
-	
-	<div class="video_cat_wrapper">
-	
-	<div class="video_cat_title_wrapper">
-		
-		<span class="video_cat_title">Trial Video</span>
-		
-		<span class="blue_line"></span><!-- blue_line -->
-		
-	</div><!-- video_cat_title_wrapper -->
-	
-	<div class="video_cat">
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
+				    
+					<?php endwhile; ?>
 					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
-		<div class="single_video">
-			
-			<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
-				
-				<div class="img_scale_wrapper">
-				
-					<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
-				
-				</div><!-- img_scale_wrapper -->
-				
-				<div class="video_text_wrapper">
-					
-					<div class="play_button_wrapper">
-						
-						<div class="play_button"></div><!-- play_button -->
-						
-					</div><!-- play_button_wrapper -->
-					
-					<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
-					
-				</div><!-- video_text_wrapper -->
-				
-			</a>
-			
-		</div><!-- single_video -->
-		
+					</div><!-- video_cat -->
+				 
+				<?php endif; ?>
 
-	</div><!-- video_cat -->
+		 
+</div><!-- video_cat_wrapper -->
+			
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 	
-	
-	</div><!-- video_cat_wrapper -->
-	
-	
+
 </div><!-- internal_container -->
 
 
