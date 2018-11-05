@@ -1,4 +1,13 @@
-<?php // dynamic_sidebar( 'recent_posts' ); ?>
+<div class="sidebar_wrapper">
+	
+		<?php dynamic_sidebar( 'recent_posts' ); ?>
+	
+</div><!-- sidebar_wrapper -->
+
+
+
+
+
 
 <?php // dynamic_sidebar( 'category_sidebar' ); ?>
 
