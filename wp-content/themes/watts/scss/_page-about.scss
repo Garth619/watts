@@ -139,14 +139,13 @@
 			max-width:277px;
 			margin:20px auto 0;
 			height:64px;
-			&:after {
-				content:"";
-				display: block;
-				width:32px;
-				height:3px;
-				background: $bluetwo;
-				margin:40px auto 0;
-			}
+		}
+		span.aboutline {
+			display: block;
+			width:32px;
+			height:3px;
+			background: $bluetwo;
+			margin:40px auto 0;
 		}
 	}
 	.single_pa_hover {
@@ -188,3 +187,155 @@
 	}
 }
 
+
+.about_sellingpoints {
+	display: flex;
+	justify-content: space-between;
+	padding:0 125px;
+	max-width:1670px;
+	margin:160px auto 75px;
+}
+
+.about_sp_col {
+	flex-basis:45%;
+	h2 {
+		color:$blueone;
+		font-family: $poppins;
+		font-weight:700;
+		font-size:55px;
+		line-height: 65px;
+		margin-bottom:70px;
+		
+	}
+}
+
+
+.single_sp {
+	margin-bottom:75px;
+	span.single_sp_title {
+		display: block;
+		text-transform: lowercase;
+		font-family: $poppins;
+		font-size:25px;
+		color:$bluedark;
+		font-weight:700;
+		letter-spacing: 0.05em;
+		border-bottom: 3px solid $blueone;
+		padding-bottom:12px;
+		margin-bottom:17px;
+	}
+}
+
+@media screen and (max-width: 1540px) {
+	
+	
+.about_pa {
+	
+	margin:120px 0 0;
+	
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	.about_right {
+		flex-basis: 460px;
+		
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1410px) {
+	
+	
+	.about_right {
+		margin-top:210px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	.about_right {
+		flex-basis: 400px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+	
+	
+	.about_top {
+		display: block;
+		padding: 82px 60px 0;
+	}
+	
+	.about_left {
+		padding-right:0;
+	}
+	
+	.about_right {
+		max-width:530px;
+		margin:100px auto 0;
+	}
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.about_top {
+    padding: 48px 40px 0;
+	}
+	
+	
+	.about_left {
+		h1 {
+			margin-bottom: 29px;
+		}
+	}
+	
+	.about_right {
+    margin: 58px auto 0;
+	}
+	
+	
+	.about_video {
+		.about_video_text {
+			height: 146px;
+			padding-left:20px;
+			padding-right:20px;
+			span.about_video_title {
+				padding-top: 75px;
+			}
+		}
+	}  
+    
+    
+    .about_intro {
+	    line-height: 35px;
+    }
+
+	
+} /* Media Query */
