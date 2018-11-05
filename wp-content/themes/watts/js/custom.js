@@ -241,6 +241,32 @@ $('.sec_one_slider').slick({
 	adaptiveHeight: true
  });
  
+ 
+ 
+ 
+ $('.about_pa').slick({
+  infinite: true,
+  mobileFirst:true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	arrows:false,
+	dots:false,
+	responsive: [
+    {
+      breakpoint: 699,
+      settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+     }
+   },
+   {
+      breakpoint: 1290,
+      settings: "unslick"
+   }
+   
+	]
+ });
+
 
  
 

@@ -266,6 +266,23 @@
 } /* Media Query */
 
 
+@media screen and (max-width: 1290px) {
+	
+	
+	.about_pa {
+		display: block;
+		height:auto;
+	}
+	
+	.about_single_pa {
+		height: 560px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1250px) {
 	
 	.about_right {
@@ -309,6 +326,16 @@
     padding: 48px 40px 0;
 	}
 	
+	
+	.about_pa {
+		padding-left:0;
+		margin: 80px 0 0;
+	}
+	
+	
+	.about_single_pa {
+		height: 480px;
+	}
 	
 	.about_left {
 		h1 {
