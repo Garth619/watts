@@ -11,6 +11,9 @@ get_header(); ?>
 	
 <div class="internal_container video_wrappper">
 	
+	
+
+	
 		
 		<?php if(get_field('video_center')): ?>
 		 
@@ -20,7 +23,7 @@ get_header(); ?>
 			
 				<div class="video_cat_title_wrapper">
 		
-					<span class="video_cat_title">Trial Video</span>
+					<span class="video_cat_title"><?php the_sub_field( 'video_category_title' ); ?></span>
 		
 					<span class="blue_line"></span><!-- blue_line -->
 		
@@ -31,14 +34,22 @@ get_header(); ?>
 					<div class="video_cat">
 				 
 					<?php while(has_sub_field('videos')): ?>
+					
 				 
 						<div class="single_video">
 			
-						<a href="//player.vimeo.com/video/1084537?portrait=0&autoplay=1" data-lity>
+						<a href="//player.vimeo.com/video/<?php the_sub_field( 'vimeo_id' ); ?>?portrait=0&autoplay=1" data-lity>
 				
 						<div class="img_scale_wrapper">
+							
+							<?php
+							
+							$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/" . get_sub_field('vimeo_id') . ".php"));
+							$vimeoimage = $hash[0]['thumbnail_large'];
+							
+							?>
 				
-							<img src="https://i.vimeocdn.com/video/20963649_640.jpg"/>
+							<img src="<?php echo $vimeoimage;?>"/>
 				
 						</div><!-- img_scale_wrapper -->
 				

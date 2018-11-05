@@ -9,7 +9,11 @@ get_header(); ?>
 	
 	<div class="att_bio_video mobile">
 					
-					<a class="" href="">
+					<?php if(get_field('vimeo_id_att')) : ?>
+					
+					<!-- shows video -->
+					
+					<a href="//player.vimeo.com/video/<?php the_field( 'vimeo_id_att' ); ?>?portrait=0&autoplay=1" data-lity>
 						
 						<div class="bio_img_wrapper">
 					
@@ -21,10 +25,10 @@ get_header(); ?>
 							
 							<?php else:?>
 							
-							<img alt="Attoenry Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+							<img alt="Attorney Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
 							
 							<?php endif; ?>
-						
+
 						</div><!-- bio_img_wrapper -->
 						
 						<div class="bio_video_title_wrapper">
@@ -36,6 +40,29 @@ get_header(); ?>
 						</div><!-- bio_video_title_wrapper -->
 					
 					</a>
+					
+					<?php else:?>
+					
+					<!-- shows just image if there isn't a vimeo -->
+					
+					<div class="bio_img_wrapper">
+					
+							<?php $attorney_image = get_field( 'attorney_image' ); ?>
+							
+							<?php if ( $attorney_image ) : ?>
+							
+							<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+							
+							<?php else:?>
+							
+							<img alt="Attorney Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+							
+							<?php endif; ?>
+
+						
+						</div><!-- bio_img_wrapper -->					
+					
+					<?php endif;?>
 					
 				</div><!-- att_bio_video -->
 		
@@ -55,7 +82,11 @@ get_header(); ?>
 				
 				<div class="att_bio_video">
 					
-					<a class="" href="">
+					<?php if(get_field('vimeo_id_att')) : ?>
+					
+					<!-- shows video -->
+					
+					<a href="//player.vimeo.com/video/<?php the_field( 'vimeo_id_att' ); ?>?portrait=0&autoplay=1" data-lity>
 						
 						<div class="bio_img_wrapper">
 					
@@ -67,11 +98,10 @@ get_header(); ?>
 							
 							<?php else:?>
 							
-							<img alt="Attoenry Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+							<img alt="Attorney Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
 							
 							<?php endif; ?>
 
-						
 						</div><!-- bio_img_wrapper -->
 						
 						<div class="bio_video_title_wrapper">
@@ -83,6 +113,29 @@ get_header(); ?>
 						</div><!-- bio_video_title_wrapper -->
 					
 					</a>
+					
+					<?php else:?>
+					
+					<!-- shows just image if there isn't a vimeo -->
+					
+					<div class="bio_img_wrapper">
+					
+							<?php $attorney_image = get_field( 'attorney_image' ); ?>
+							
+							<?php if ( $attorney_image ) : ?>
+							
+							<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+							
+							<?php else:?>
+							
+							<img alt="Attorney Placeholder" src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+							
+							<?php endif; ?>
+
+						
+						</div><!-- bio_img_wrapper -->					
+					
+					<?php endif;?>
 					
 				</div><!-- att_bio_video -->
 				

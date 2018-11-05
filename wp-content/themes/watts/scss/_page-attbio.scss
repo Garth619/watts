@@ -64,7 +64,9 @@
 	a {
 		display: block;
 		text-decoration: none;
-		.bio_img_wrapper {
+		
+	}
+	.bio_img_wrapper {
 			overflow: hidden;
 			img {
 				max-width: 100%;
@@ -74,7 +76,6 @@
 				transition: transform 1200ms cubic-bezier(.17,.66,.34,.98);
 			}
 		}
-	}
 }
 
 
@@ -164,9 +165,7 @@ span.bio_video_title {
     padding: 145px 9% 118px 33%;
 	}
 	
-	
-	
-	
+
 	
 } /* Media Query */
 

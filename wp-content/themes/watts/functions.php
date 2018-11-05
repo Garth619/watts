@@ -288,5 +288,19 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
+// vimeo api
+
+/**
+ * Grab the url of a publicly embeddable video hosted on vimeo
+ * @param  str $video_url The "embed" url of a video
+ * @return str            The url of the thumbnail, or false if there's an error
+ */
+function grab_vimeo_thumbnail($vimeo_url){
+    if( !$vimeo_url ) return false;
+    $data = json_decode( file_get_contents( 'http://vimeo.com/api/oembed.json?url=' . $vimeo_url ) );
+    if( !$data ) return false;
+    return $data->thumbnail_url;
+}
+
 
 
