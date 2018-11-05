@@ -62,6 +62,19 @@
 		
 		<div class="header_left">
 			
+			<div class="nav_close_wrapper">
+			
+				<div class="close_x">
+			
+					<span class="close_bar"></span>
+					<span class="close_bar"></span>
+			
+				</div><!-- close_x -->
+			
+				<span class="close_title">Close</span>
+			
+			</div><!-- nav_close_wrapper -->
+			
 			<div class="menu_wrapper">
 			
 				<span class="menu_bar"></span><!-- menu_bar -->
@@ -94,11 +107,24 @@
 			
 		</div><!-- header_right -->
 		
-		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		
 		
 	</header>
 	
 	<div class="sticky_header"><!-- sticky_header -->
+	
+		<div class="nav_close_wrapper">
+			
+			<div class="close_x">
+			
+			<span class="close_bar"></span>
+			<span class="close_bar"></span>
+			
+			</div><!-- close_x -->
+			
+			<span class="close_title">Close</span>
+			
+		</div><!-- nav_close_wrapper -->
 		
 		<div class="menu_wrapper">
 			
@@ -136,6 +162,20 @@
 	</div><!-- sticky_header -->
 	
 	<div class="fixed_header"><!-- along side -->
+	
+		<div class="nav_close_wrapper">
+			
+			<div class="close_x">
+			
+			<span class="close_bar"></span>
+			<span class="close_bar"></span>
+			
+			</div><!-- close_x -->
+			
+			<span class="close_title">Close</span>
+			
+		</div><!-- nav_close_wrapper -->
+
 		
 		<div class="menu_wrapper">
 			
@@ -188,6 +228,21 @@
 		
 	</div><!-- internal_header -->
 				
-
+	<nav>
+		
+				
+		<div class="nav_left">
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+		</div><!-- nav_left -->
+		
+		<div class="nav_right">
+			
+			<div class="sub_menu_container"></div><!-- sub_menu_container -->
+			
+		</div><!-- nav_right -->
+		
+	</nav>
 
 			
