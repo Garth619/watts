@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "EF5717C1-9A75-4616-A309-371877E0FD92"
+		"uuidString": "52C722CB-B9A2-4501-816B-47F111A42D1B"
 		}
 	],
 "creatorBuild": "28905",
@@ -63,13 +63,13 @@
 		},
 	"/images/att-bio.jpg": {
 		"ft": 16384,
-		"iS": 212321,
+		"iS": 37978,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/att-bio.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/att-placeholder.jpg": {
@@ -127,13 +127,13 @@
 		},
 	"/images/hero-intl.jpg": {
 		"ft": 16384,
-		"iS": 428067,
+		"iS": 83334,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/hero-intl.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/hero-tablet.jpg": {
@@ -149,13 +149,13 @@
 		},
 	"/images/hero.jpg": {
 		"ft": 16384,
-		"iS": 472207,
+		"iS": 89196,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/ico-bull.png": {
@@ -1058,15 +1058,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 562610070.50113499,
+	"creationDate": 563126092.03471601,
 	"displayValue": "watts",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-gavin",
+	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -2467,7 +2467,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://watts-demo.com",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

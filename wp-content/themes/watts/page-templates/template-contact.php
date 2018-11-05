@@ -15,7 +15,7 @@
 	
 	<div class="iframe_map">
 		
-		<iframe src="https://snazzymaps.com/embed/110351" width="100%" height="100%" style="border:none;"></iframe>
+		<?php the_field( 'iframe_map' ); ?>
 		
 	</div><!-- iframe_map -->
 	
@@ -24,14 +24,16 @@
 		<div class="contact_left">
 			
 			<div class="logo_consult_wrapper">
+				
+				<?php $small_logo = get_field( 'small_logo' ); ?>
 			
-				<img src="<?php bloginfo('template_directory');?>/images/logo_ICO.svg"/>
+				<img src="<?php echo $small_logo['url']; ?>" alt="<?php echo $small_logo['alt']; ?>" />
 			
 				<div class="contact_consult_wrapper">
 				
-					<span>Free Consultation</span>
+					<span><?php the_field( 'contact_page_consultation_verbiage' ); ?></span>
 				
-					<a href="">(800) 294-0055</a>
+					<a href="tel:<?php the_field( 'firm_phone' ); ?>"><?php the_field( 'firm_phone','options'); ?></a>
 					
 				</div><!-- contact_consult_wrapper -->
 			
@@ -39,11 +41,8 @@
 			
 			<div class="contact_left_content content">
 				
-				<p>Our team of lawyers will aggressively pursue your case on a contingency fee basis. This means that you do not have to pay anything up front, and that you are not responsible for expenses we incur unless we are successful with your case. We handle contingency fee cases across the country.</p>
+				<?php the_field( 'contact_content' ); ?>
 
-				<p>We have the resources, the experience and the proven track record to help you get the maximum compensation for your case. We are here to help. Contact the law firm of Watts Guerra today.</p>
-
-				
 			</div><!-- contact_left_content -->
 			
 		</div><!-- contact_left -->
