@@ -314,9 +314,33 @@
 	}
 	
 	
+	.about_sellingpoints {
+		padding:0 60px;
+	}
+	
+	.about_pa {
+		padding-left:0;
+	}
+	
+	
 } /* Media Query */
 
 
+
+@media screen and (max-width: 1066px) {
+	
+	.about_sellingpoints {
+		margin: 86px auto 0px;
+		display: block;
+	}
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 767px) {
@@ -328,7 +352,7 @@
 	
 	
 	.about_pa {
-		padding-left:0;
+	
 		margin: 80px 0 0;
 	}
 	
@@ -363,6 +387,30 @@
     .about_intro {
 	    line-height: 35px;
     }
+
+.about_sellingpoints {
+	margin: 55px auto 70px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+    
+
+
+.about_sp_col {
+	h2 {
+		font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 45px;
+	}
+}
+
+.single_sp {
+  margin-bottom: 43px;
+}
+
+   
+
 
 	
 } /* Media Query */
