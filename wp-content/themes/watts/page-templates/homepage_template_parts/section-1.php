@@ -14,9 +14,9 @@
 			
 			<div class="sec_one_content">
 				
-				<span>Trial lawyers achieving serious high-value results </span>
+				<span><?php the_field( 'section_header' ); ?> </span>
 				
-				<a class="free_consultation button" href="#consultation">request free consultation here</a><!-- free_consultation -->
+				<a class="free_consultation button" href="#consultation"><?php the_field( 'request_button_verbiage' ); ?></a><!-- free_consultation -->
 				
 			</div><!-- sec_one_content -->
 			
@@ -33,167 +33,46 @@
 		
 		<div class="free_consult_bar">
 			
-			<span>Free Consultation</span>
+			<span><?php the_field( 'free_consultation_section_one_header_verbige' ); ?></span>
 			
-			<a href="tel:(800) 294-0055">(800) 294-0055</a>
+			<a href="tel:<?php the_field( 'firm_phone','option'); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 			
 		</div><!-- free_consult_bar -->
 		
 		<div class="sec_one_slide_wrapper">
 				
 			<div class="sec_one_slider">
-					
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-07.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
 				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-01.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
 				
-				<div class="sec_one_single_slide">
+				<?php if(get_field('section_one_case_results')): ?>
+				 
+					<?php while(has_sub_field('section_one_case_results')): ?>
+				 
+						<div class="sec_one_single_slide">
+							
+							<?php $svg = get_sub_field( 'svg' ); ?>
 						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-02.svg"/><!-- results_svg -->
+							<img class="results_svg" src="<?php echo $svg['url']; ?>" alt="<?php echo $svg['alt']; ?>" /><!-- results_svg -->
 					
-					<span class="amount">$00,000,000</span><!-- amount -->
+							<span class="amount"><?php the_sub_field( 'amount' ); ?></span><!-- amount -->
 					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
+							<span class="case_type"><?php the_sub_field( 'type' ); ?></span><!-- case_type -->
 					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
+							<span class="info_title"><?php the_sub_field( 'fees_title' ); ?></span><!-- info_title -->
+							<span class="info_amount"><?php the_sub_field( 'fees_amount' ); ?></span><!-- info_amount -->
 					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
+							<span class="info_title"><?php the_sub_field( 'fees_title_two' ); ?></span><!-- info_title -->
+							<span class="info_amount"><?php the_sub_field( 'fees_amount_two' ); ?></span><!-- info_amount -->
+							
+							<span class="info_title"><?php the_sub_field( 'fees_title_three' ); ?></span><!-- info_title -->
+							<span class="info_amount"><?php the_sub_field( 'fees_amount_three' ); ?></span><!-- info_amount -->
 						
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-03.svg"/><!-- results_svg -->
+						</div><!-- sec_one_single_slide -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-04.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-05.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-06.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
-				
-				<div class="sec_one_single_slide">
-						
-					<img class="results_svg" src="<?php bloginfo('template_directory');?>/images/pa-08.svg"/><!-- results_svg -->
-					
-					<span class="amount">$00,000,000</span><!-- amount -->
-					
-					<span class="case_type">AGRICULTURAL Loss</span><!-- case_type -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-					
-					<span class="info_title">Fees</span><!-- info_title -->
-					<span class="info_amount">$00,000,000</span><!-- info_amount -->
-						
-				</div><!-- sec_one_single_slide -->
 					
 			</div><!-- sec_one_slider -->
 				
@@ -215,9 +94,10 @@
 				
 		</div><!-- sec_one_slide_wrapper -->
 		
-		<a class="button view_more_button" href="">View More Results</a>
+		<a class="button view_more_button" href="<?php the_field( 'section_one_view_more_results_page_link' ); ?>">
+<?php the_field( 'section_one_view_more_results_verbiage' ); ?></a>
 		
-		<span class="results_disclaimer">These results are exceptional and not to be expected in every case.</span><!-- results_disclaimer -->
+		<span class="results_disclaimer"><?php the_field( 'section_one_case_results_disclaimer' ); ?></span><!-- results_disclaimer -->
 	
 	</div><!-- sec_one_right -->
 

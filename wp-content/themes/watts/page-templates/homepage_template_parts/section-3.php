@@ -32,7 +32,7 @@
 			
 				<div class="sec_three_middle_left">
 				
-					<span>We will go to work for you, employing the best experts, and using the most up-to-date technology.</span>
+					<span>We will go to work for you, employing the best experts, and using the most<br/> up-to-date technology.</span>
 				
 				</div><!-- sec_three_middle_left -->
 			
@@ -47,6 +47,22 @@
 			
 		</div><!-- sec_three_middle -->
 		
+		
+		<div class="sec_three_bottom">
+			
+			<h2 class="first">Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
+			
+			<p>Curabitur felis l ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus. Morbi leo mi, fermentum id interdum eget, ultricies sit amet neque. Aenean efficitur aliquam mauris, in sodales ex tristique id. Donec pharetra, nibh id volutpat molestie, dolor erat vestibulum diam,</p>
+			
+			<p>Curabitur est urna, ultrices ac tempor ac, varius porta velit. Nunc dui ante, suscipit non odio in, tincidunt lobortis ipsum.  Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla. Nam et fringilla sapien, ac ullamcorper nunc. Suspendisse potenti</p>
+			
+			<p>Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus.</p>
+			
+<h2>Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
+	
+	<p>Donec pharetra, nibh id volutpat molestie, dolor erat vestibulum diam, Curabitur est urna, ultrices ac tempor ac, varius porta velit. Nunc dui ante, suscipit non odio in, tincidunt lobortis ipsum. Vestibulum mollis lorem urna, sed fringilla lectus efficitur sed. Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula.  Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, eget bibendum lectus.</p>
+			
+		</div><!-- sec_three_bottom -->
 		
 	</div><!-- sec_three_inner -->
 	
