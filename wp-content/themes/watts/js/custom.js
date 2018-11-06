@@ -266,9 +266,36 @@ $('.sec_one_slider').slick({
    
 	]
  });
-
-
  
+ 
+ 
+ $('.sec_two_sp_slider').slick({
+  infinite: true,
+  mobileFirst:true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	arrows:true,
+	fade:true,
+	dots:false,
+	prevArrow:".sec_two_left_button",
+	nextArrow:".sec_two_right_button",
+	responsive: [
+    {
+      breakpoint: 1130,
+      settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      fade:false,
+     }
+   },
+   {
+      breakpoint: 1250,
+      settings: "unslick"
+   }
+   
+	]
+ });
+
 
 	
 

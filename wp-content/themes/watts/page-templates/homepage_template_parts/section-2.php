@@ -1,6 +1,12 @@
 <section id="section_two">
 	
 	<div class="sec_two_sp_slider_wrapper">
+		
+		<div class="sec_two_left_button sec_two_button">
+			
+			<?php echo file_get_contents("wp-content/themes/watts/images/arrow.svg"); ?>
+			
+		</div><!-- sec_two_left_button -->
 	
 	<div class="sec_two_sp_slider">
 		
@@ -124,9 +130,15 @@
 			
 		</div><!-- sec_two_single_sp -->
 		
-		
-		
 	</div><!-- sec_two_sp_slider -->
+	
+	<div class="sec_two_right_button sec_two_button">
+			
+		<?php echo file_get_contents("wp-content/themes/watts/images/arrow.svg"); ?>
+		
+	</div><!-- sec_two_right_button -->
+	
+	
 	
 	</div><!-- sec_two_sp_slider_wrapper -->
 	

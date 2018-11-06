@@ -3,6 +3,10 @@
 }
 
 
+.sec_two_button {
+	display: none;
+}
+
 .sec_two_sp_slider {
 	display: flex;
 }
@@ -48,7 +52,7 @@
 					display: block;
 					width:100%;
 					height:1px;
-					background: $bluetwo;
+					background: $blueone;
 					position: absolute;
 					bottom:0;
 					left:0;
@@ -112,3 +116,348 @@
 		}
 	}
 }
+
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+
+	
+.sec_two_single_sp {
+	padding: 83px 0 0;
+	height: 595px;
+	&:hover {
+		a {
+			.sec_two_single_sp_hover {
+				
+				&:before {
+					
+				}
+			}
+		}
+	}
+	a {
+		
+		.sec_two_sp_content {
+			max-width:253px;
+			.sec_two_sp_header {
+				
+				&:after {
+					
+				}
+				span.sec_two_sp_title {
+					font-size:28px;
+					letter-spacing: 0.025em;
+				}
+				img {
+					width: 59px;
+					height: 59px;
+				}
+			}
+			span {
+				
+			}
+			span.white_header {
+			
+			}
+			span.grey_content {
+				br {
+					display: none;
+				}
+			}
+		}
+		.sec_two_single_sp_hover {
+			
+			&:before {
+				
+			}
+		}
+	}
+}
+
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1250px) {
+	
+
+
+
+
+.sec_two_sp_slider_wrapper {
+	background:$bluedark;
+	display: flex;
+	align-items: center;
+	padding:0 25px;
+}
+
+
+.sec_two_button {
+	display: block;
+	width:40px;
+	height:40px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	&:hover {
+		svg#arrow {
+			fill:$blueone;
+		}
+	}
+	svg#arrow {
+		fill:#fff;
+		width:13px;
+		height:25px;
+	}
+}
+
+
+	.sec_two_sp_slider {
+	 display: block;
+	 padding:0 20px;
+	 width:calc(100% - 80px);
+	}
+	
+
+
+.sec_two_left_button {
+	border-right:2px solid $blueone;
+	justify-content: flex-start;
+	svg {
+		transform: rotate(-180deg);
+	}
+}
+
+.sec_two_right_button {
+	border-left:2px solid $blueone;
+	justify-content: flex-end;
+	svg {
+		
+	}
+}
+
+	
+	
+
+	
+	
+.sec_two_single_sp {
+  height: 492px;
+	&:hover {
+		a {
+			.sec_two_single_sp_hover {
+				opacity: 0;
+				visibility: hidden;
+				&:before {
+					
+				}
+			}
+		}
+	}
+	a {
+		
+		.sec_two_sp_content {
+			max-width: 380px;
+			.sec_two_sp_header {
+				
+				&:after {
+					
+				}
+				span.sec_two_sp_title {
+					
+				}
+				img {
+					
+				}
+			}
+			span {
+				
+			}
+			span.white_header {
+			
+			}
+			span.grey_content {
+				br {
+					
+				}
+			}
+		}
+		.sec_two_single_sp_hover {
+			
+			&:before {
+				
+			}
+		}
+	}
+}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1130px) {
+	
+#section_two {
+	padding-left:0;
+}
+		
+.sec_two_single_sp {
+  padding: 99px 0 0;
+	&:hover {
+		a {
+			.sec_two_single_sp_hover {
+				
+				&:before {
+					
+				}
+			}
+		}
+	}
+	a {
+		
+		.sec_two_sp_content {
+			
+			.sec_two_sp_header {
+				
+				&:after {
+					
+				}
+				span.sec_two_sp_title {
+					font-size:33px;
+					letter-spacing: 0.05em;
+				}
+				img {
+					
+				}
+			}
+			span {
+				
+			}
+			span.white_header {
+			
+			}
+			span.grey_content {
+				br {
+					
+				}
+			}
+		}
+		.sec_two_single_sp_hover {
+			
+			&:before {
+				
+			}
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+
+#section_two {
+	background: $bluedark;
+}
+
+.sec_two_sp_slider_wrapper {
+	flex-wrap: wrap;
+	padding-left:35px;
+	padding-right:35px;
+	max-width:440px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.sec_two_sp_slider {
+	width:100%;
+	order:1;
+	padding-left:0;
+	padding-right:0;
+}
+
+
+.sec_two_button {
+	margin-bottom:50px;
+}
+
+.sec_two_left_button {
+	order:2;
+	border-right: none;
+}
+
+.sec_two_right_button {
+	order:3;
+}
+
+
+	
+.sec_two_single_sp {
+  height: 422px;
+ 	padding: 64px 0 0;
+	&:hover {
+		a {
+			.sec_two_single_sp_hover {
+				
+				&:before {
+					
+				}
+			}
+		}
+	}
+	a {
+		
+		.sec_two_sp_content {
+			
+			.sec_two_sp_header {
+				
+				&:after {
+					
+				}
+				span.sec_two_sp_title {
+					
+				}
+				img {
+					
+				}
+			}
+			span {
+				
+			}
+			span.white_header {
+			
+			}
+			span.grey_content {
+				br {
+					
+				}
+			}
+		}
+		.sec_two_single_sp_hover {
+			
+			&:before {
+				
+			}
+		}
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
