@@ -25,9 +25,9 @@
 	
 	<div class="container content">
 		
-		<h1><?php the_title();?></h1>
+		<h1>San Antonion personal injury blog</h1>
 		
-		<?php get_template_part( 'loop', 'page' ); ?>
+			<?php get_template_part( 'loop', 'index' );?>
 
 	</div><!-- container -->
 
@@ -47,7 +47,7 @@
 
 
 				
-	<?php //get_template_part( 'loop', 'index' );?>
+
 				
 			
 			

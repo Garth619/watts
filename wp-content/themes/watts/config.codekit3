@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "52C722CB-B9A2-4501-816B-47F111A42D1B"
+		"uuidString": "588069B0-660C-4FF1-B69A-165AEBC3163A"
 		}
 	],
 "creatorBuild": "28905",
@@ -50,6 +50,16 @@
 		"oA": 0,
 		"oAP": "/header.php",
 		"oF": 0
+		},
+	"/images/about-car-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/about-car-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/about-car.svg": {
 		"ft": 2097152,
@@ -355,6 +365,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/pa-02-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-02-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/pa-02.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -375,6 +395,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/pa-04-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-04-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/pa-04.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -390,6 +420,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/pa-05.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/pa-06-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-06-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -532,13 +572,13 @@
 		},
 	"/images/video-about.jpg": {
 		"ft": 16384,
-		"iS": 191627,
+		"iS": 43320,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/video-about.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/index.php": {
@@ -1068,10 +1108,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 563126092.03471601,
+	"creationDate": 563168073.25193799,
 	"displayValue": "watts",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron",
+	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

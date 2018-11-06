@@ -292,6 +292,13 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 });
 
 
+$('.sidebar_wrapper h3').on('click', function(e) {
+	
+	$(this).next('ul').slideToggle(400);
+  
+});
+
+
 /* banner check, if banner add class to body that styles header a certain way
 --------------------------------------------------------------------------------------- */
 
