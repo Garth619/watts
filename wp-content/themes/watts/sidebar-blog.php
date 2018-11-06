@@ -1,4 +1,4 @@
-<div class="sidebar_wrapper">
+<div class="sidebar_wrapper blog_sidebar">
 	
 		<?php dynamic_sidebar( 'recent_posts' ); ?>
 		
