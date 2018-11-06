@@ -25,7 +25,7 @@
 	
 	<div class="container content">
 		
-		<h1>San Antonion personal injury blog</h1>
+		<h1><?php the_field( 'blog_title','option'); ?></h1>
 		
 			<?php get_template_part( 'loop', 'index' );?>
 

@@ -51,6 +51,16 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/images/about-car-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/about-car-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/about-car.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -355,6 +365,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/pa-02-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-02-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/pa-02.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -375,6 +395,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/pa-04-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-04-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/pa-04.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -390,6 +420,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/pa-05.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/pa-06-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/pa-06-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -654,6 +694,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-templates/homepage_template_parts/section-1.php",
+		"oF": 0
+		},
+	"/page-templates/homepage_template_parts/section-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-templates/homepage_template_parts/section-2.php",
 		"oF": 0
 		},
 	"/page-templates/template-about.php": {
@@ -1000,6 +1047,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/homepage/_section_one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/homepage/_section_two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/homepage/_section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

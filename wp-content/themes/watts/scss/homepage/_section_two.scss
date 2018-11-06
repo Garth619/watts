@@ -1,0 +1,114 @@
+#section_two {
+	padding-left:83px;
+}
+
+
+.sec_two_sp_slider {
+	display: flex;
+}
+
+
+.sec_two_single_sp {
+	background: $bluedark;
+	font-family: $poppins;
+	flex-basis: 25%;
+	height:555px;
+	padding:92px 0 0;
+	position: relative;
+	overflow: hidden;
+	&:hover {
+		a {
+			.sec_two_single_sp_hover {
+				opacity: 1;
+				visibility: visible;
+				transform: translateY(0);
+				&:before {
+					opacity: 1;
+					transform: translateY(0);
+					transition-delay: 630ms;
+				}
+			}
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		.sec_two_sp_content {
+			max-width:335px;
+			margin:0 auto;
+			.sec_two_sp_header {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+				padding-bottom:25px;
+				position: relative;
+				margin-bottom:28px;
+				&:after {
+					content:"";
+					display: block;
+					width:100%;
+					height:1px;
+					background: $bluetwo;
+					position: absolute;
+					bottom:0;
+					left:0;
+				}
+				span.sec_two_sp_title {
+					color:#fff;
+					font-size:33px;
+					letter-spacing: 0.05em;
+					font-weight: 700;
+					text-transform: lowercase;
+				}
+				img {
+					width:74px;
+					height:74px;
+				}
+			}
+			span {
+				display: block;
+			}
+			span.white_header {
+				color:#fff;
+				font-weight: 500;
+				font-size:21px;
+				line-height: 35px;
+				margin-bottom:17px;
+			}
+			span.grey_content {
+				font-size:17px;
+				line-height: 30px;
+				color:#9ea3ab;
+			}
+		}
+		.sec_two_single_sp_hover {
+			position: absolute;
+			top:0;
+			left:0;
+			width: 100%;
+			height:100%;
+			z-index: 1;
+			background: $bluegrad;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color:#fff;
+			letter-spacing: 0.25em;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(100%);
+			transition: transform 700ms cubic-bezier(.17,.66,.34,.98), opacity 300ms cubic-bezier(.17,.66,.34,.98), visibility 300ms cubic-bezier(.17,.66,.34,.98);
+			&:before {
+				content:"View Results";
+				font-size: 15px;
+				text-transform: uppercase;
+				font-weight: 700;
+				padding-bottom: 15px;
+				border-bottom: 3px solid #fff;
+				transform: translateY(-25px);
+				opacity: 0;
+				transition: opacity 500ms linear, transform 700ms cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
+}
