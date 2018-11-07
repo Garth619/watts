@@ -295,6 +295,17 @@ $('.sec_one_slider').slick({
    
 	]
  });
+ 
+ 
+ $('.sec_four_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	arrows:true,
+	prevArrow:".sec_four_left_button",
+	nextArrow:".sec_four_right_button",
+	adaptiveHeight: true
+ });
 
 
 	
