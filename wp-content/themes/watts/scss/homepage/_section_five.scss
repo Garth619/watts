@@ -6,7 +6,7 @@
 		content:"";
 		display: block;
 		width:77%;
-		height:500px;
+		height:100%;
 		background: $greylight;
 		position: absolute;
 		top:0;
@@ -121,6 +121,11 @@
 }
 
 
+a.sec_five_learn_more {
+	display: none;
+}
+
+
 @media screen and (max-width: 1500px) {
 	
 	
@@ -140,12 +145,18 @@
 
 @media screen and (max-width: 1450px) {
 	
-	
+	#section_five {
+		&:after {
+			width: 70%;
+			left:30%;
+		}
+	}
 	
 	.sec_five_title_wrapper {
     padding: 103px 0 0;
    }
-	
+   
+  
 	
 	
 	
@@ -220,6 +231,12 @@
 			}
 		}
 	} 
+	
+	
+	a.sec_five_learn_more {
+	display: block;
+}
+
 	
 	
 } /* Media Query */

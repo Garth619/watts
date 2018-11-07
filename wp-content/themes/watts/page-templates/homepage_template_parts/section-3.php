@@ -50,7 +50,7 @@
 		
 		<div class="sec_three_bottom">
 			
-			<h2 class="first">Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
+			<h2 class="no_padding">Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
 			
 			<p>Curabitur felis l ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus. Morbi leo mi, fermentum id interdum eget, ultricies sit amet neque. Aenean efficitur aliquam mauris, in sodales ex tristique id. Donec pharetra, nibh id volutpat molestie, dolor erat vestibulum diam,</p>
 			

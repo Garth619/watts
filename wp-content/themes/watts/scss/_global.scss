@@ -129,6 +129,9 @@ h1,h2,h3,h4 {
 		font-weight: 600;
 		padding:25px 0 16px;
 	}
+	h2.no_padding {
+		padding-top:0;
+	}
 	h3 {
 		color:$bluedark;
 		font-weight: 600;

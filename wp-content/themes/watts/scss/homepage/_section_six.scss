@@ -1,0 +1,164 @@
+#section_six {
+	
+}
+
+
+.sec_six_inner {
+	max-width:1650px;
+	margin:0 auto;
+	padding:113px 125px;
+	img.sp_1 {
+		display: block;
+		margin:0 auto 33px;
+		height:67px;
+		width:80px;
+	}
+	span.sec_six_intro {
+		font-family: $unna;
+		font-size:75px;
+		line-height: 95px;
+		color:$bluedark;
+		display: block;
+		text-align: center;
+		max-width: 1315px;
+		margin:0 auto;
+	}
+	.quote_info {
+		border-top:3px solid $blueone;
+		border-bottom:3px solid $blueone;
+		display: flex;
+		justify-content: center;
+		max-width:338px;
+		margin:37px auto 0;
+		padding:22px 0;
+		span {
+			font-family: $poppins;
+			font-weight: 700;
+			font-size:15px;
+			letter-spacing: 0.15em;
+			text-transform: uppercase;
+			color:$blueone;
+			&:first-of-type {
+				&:after {
+					content:"";
+					display: inline-block;
+					width:4px;
+					height:4px;
+					border-radius: 50%;
+					background: $blueone;
+					vertical-align: top;
+					margin:6px 15px 0 12px;
+				}
+			}
+		}
+	}
+}
+
+
+
+.sec_six_content {
+	column-count:2;
+	column-gap:95px;
+	padding:97px 0 0;
+	h2, h3, h4, ul, ol, li, p {
+		width:100%;
+		display: inline-block;
+	}
+}
+
+
+@media screen and (max-width: 1450px) {
+	
+.sec_six_content {
+	padding:124px 0 0;
+}
+
+.sec_six_inner {
+	padding-left: 110px;
+	padding-right:110px;
+/*
+	padding-left:85px;
+	padding-right:85px;
+*/
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+
+	
+	
+.sec_six_inner {
+	padding: 99px 60px 70px;
+	img.sp_1 {
+		margin: 0 auto 28px;
+	}
+	span.sec_six_intro {
+		font-size: 50px;
+		line-height: 60px;
+		max-width: 665px;
+	}
+	.quote_info {
+		margin: 32px auto 0;
+		span {
+			
+			&:first-of-type {
+				&:after {
+					
+				}
+			}
+		}
+	}
+}
+
+.sec_six_content {
+  padding: 78px 0 0;
+  column-count:1;
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+.sec_six_inner {
+	padding: 55px 40px 92px;
+	img.sp_1 {
+		width:72px;
+		margin: 0px auto 16px;
+	}
+	span.sec_six_intro {
+		font-size:38px;
+		line-height: 45px;
+		max-width: 475px;
+	}
+	.quote_info {
+	  margin: 45px auto 0;
+		span {
+			font-size:13px;
+			&:first-of-type {
+				&:after {
+					
+				}
+			}
+		}
+	}
+}
+
+.sec_six_content {
+ 	padding: 57px 0 0;
+}
+
+	
+	
+	
+	
+} /* Media Query */
