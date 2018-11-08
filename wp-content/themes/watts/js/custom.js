@@ -345,10 +345,11 @@ $('.sidebar_wrapper h3').on('click', function(e) {
    	
    	$('body').addClass('banner');
    	
-   	 // fires the sticky header right after you scroll to the internal_banner div on templates with a banner
+   	 // corrects nav when its open while scrolling on templates with a banner
 	  
-	  createWaypoint('banner_trigger', '.sticky_header', 'visible', 0, null, true);
-    createWaypoint('banner_trigger', 'nav', 'move', 0, null, true);
+     createWaypoint('banner_trigger', '.sticky_header', 'visible', -86, null, true);
+    
+		 createWaypoint('banner_trigger', 'nav', 'move', -86, null, true);
    
   }
   
@@ -357,12 +358,18 @@ $('.sidebar_wrapper h3').on('click', function(e) {
 	  
 	  $('body').addClass('no-banner');
 	  
-	  // fires the sticky header right after you scroll to the internal_main div on templates without a banner
+	  // corrects nav when its open while scrolling on templates without a banner
 	  
-	  createWaypoint('internal_main', '.sticky_header', 'visible', 0, null, true);
+    createWaypoint('internal_main', '.sticky_header', 'visible', 0, null, true);
+    
     createWaypoint('internal_main', 'nav', 'move', 0, null, true);
 
 	 }
+	 
+	 
+	
+	 
+
   
 
 /* Case Results Page Read More

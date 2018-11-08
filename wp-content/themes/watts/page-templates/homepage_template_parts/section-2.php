@@ -10,125 +10,43 @@
 	
 	<div class="sec_two_sp_slider">
 		
-		<div class="sec_two_single_sp">
-			
-			<a href="">
-				
-				<div class="sec_two_sp_content">
-					
-					<div class="sec_two_sp_header">
-						
-						<span class="sec_two_sp_title">Bigger</span><!-- sec_two_sp_title -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
-						
-					</div><!-- sec_two_sp_header -->
-					
-					<span class="white_header">We have strength in numbers and in talent.</span><!-- white_header -->
-					
-					<span class="grey_content">Our firm employs a team of people in cities across Texas. We have some of the best trial lawyers in their respective areas of practice. </span><!-- grey_content -->
-					
-				</div><!-- sec_two_single_sp_content -->
-				
-				<div class="sec_two_single_sp_hover">
-					
-					
-					
-				</div><!-- sec_two_single_sp_hover -->
-				
-			</a>
-			
-		</div><!-- sec_two_single_sp -->
 		
-		<div class="sec_two_single_sp">
+		<?php if(get_field('section_two_selling_points')): ?>
+		 
+			<?php while(has_sub_field('section_two_selling_points')): ?>
+		 
+				<div class="sec_two_single_sp">
 			
-			<a href="">
+					<a href="<?php the_sub_field( 'sp_link' ); ?>">
 				
-				<div class="sec_two_sp_content">
+						<div class="sec_two_sp_content">
 					
-					<div class="sec_two_sp_header">
+							<div class="sec_two_sp_header">
 						
-						<span class="sec_two_sp_title">Better</span><!-- sec_two_sp_title -->
+								<span class="sec_two_sp_title"><?php the_sub_field( 'sp_title' ); ?></span><!-- sec_two_sp_title -->
 						
-						<img src="<?php bloginfo('template_directory');?>/images/sp-02.svg"/>
+								<?php $sp_svg = get_sub_field( 'sp_svg' ); ?>
+								
+								<img src="<?php echo $sp_svg['url']; ?>" alt="<?php echo $sp_svg['alt']; ?>" />
 						
-					</div><!-- sec_two_sp_header -->
+							</div><!-- sec_two_sp_header -->
 					
-					<span class="white_header">Our groundbreaking results speak for themselves. </span><!-- white_header -->
+							<span class="white_header"><?php the_sub_field( 'sp_one' ); ?></span><!-- white_header -->
 					
-					<span class="grey_content">Our resources are larger than most firms, enabling us to invest tens of millions of dollars at once to battle the largest corporations in the world.</span><!-- grey_content -->
+							<span class="grey_content"><?php the_sub_field( 'sp_two' ); ?> </span><!-- grey_content -->
 					
-				</div><!-- sec_two_single_sp_content -->
+						</div><!-- sec_two_single_sp_content -->
 				
-				<div class="sec_two_single_sp_hover">
-					
-					
-					
-				</div><!-- sec_two_single_sp_hover -->
+						<div class="sec_two_single_sp_hover"></div><!-- sec_two_single_sp_hover -->
 				
-			</a>
+					</a>
 			
-		</div><!-- sec_two_single_sp -->
-		
-		<div class="sec_two_single_sp">
-			
-			<a href="">
-				
-				<div class="sec_two_sp_content">
-					
-					<div class="sec_two_sp_header">
-						
-						<span class="sec_two_sp_title">Faster</span><!-- sec_two_sp_title -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/sp-03.svg"/>
-						
-					</div><!-- sec_two_sp_header -->
-					
-					<span class="white_header">We never waste time to bring justice to our deserving clients.</span><!-- white_header -->
-					
-					<span class="grey_content">We employ full-time pilots to fly<br/> private planes on a moment’s notice, enabling our lawyers to quickly meet<br/> with clients. </span><!-- grey_content -->
-					
-				</div><!-- sec_two_single_sp_content -->
-				
-				<div class="sec_two_single_sp_hover">
-					
-					
-					
-				</div><!-- sec_two_single_sp_hover -->
-				
-			</a>
-			
-		</div><!-- sec_two_single_sp -->
-		
-		<div class="sec_two_single_sp">
-			
-			<a href="">
-				
-				<div class="sec_two_sp_content">
-					
-					<div class="sec_two_sp_header">
-						
-						<span class="sec_two_sp_title">Affordable</span><!-- sec_two_sp_title -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/sp-04.svg"/>
-						
-					</div><!-- sec_two_sp_header -->
-					
-					<span class="white_header">We believe in our ability to win your case.</span><!-- white_header -->
-					
-					<span class="grey_content">We accept all of our cases on a contingency fee basis. You won’t owe anything unless we recover on your behalf.</span><!-- grey_content -->
-					
-				</div><!-- sec_two_single_sp_content -->
-				
-				<div class="sec_two_single_sp_hover">
-					
-					
-					
-				</div><!-- sec_two_single_sp_hover -->
-				
-			</a>
-			
-		</div><!-- sec_two_single_sp -->
+			</div><!-- sec_two_single_sp -->
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
+	
 		
 	</div><!-- sec_two_sp_slider -->
 	

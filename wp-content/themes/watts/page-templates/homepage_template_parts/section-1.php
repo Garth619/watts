@@ -33,7 +33,7 @@
 		
 		<div class="free_consult_bar">
 			
-			<span><?php the_field( 'free_consultation_section_one_header_verbige' ); ?></span>
+			<span><?php the_field( 'free_consultation_section_one_header_verbige','option'); ?></span>
 			
 			<a href="tel:<?php the_field( 'firm_phone','option'); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 			

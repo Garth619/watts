@@ -99,9 +99,9 @@
 			
 			<div class="tablet_free_consult_wrapper">
 				
-				<span class="tablet_free_consult">Free Consultation</span><!-- tablet_free_consult -->
+				<span class="tablet_free_consult"><?php the_field( 'free_consultation_section_one_header_verbige','option'); ?></span><!-- tablet_free_consult -->
 				
-				<a class="tablet_phone" href="te:(800) 294-0055">(800) 294-0055</a><!-- tablet_phone -->
+				<a class="tablet_phone" href="tel:<?php the_field( 'firm_phone','option'); ?>"><?php the_field( 'firm_phone','option'); ?></a><!-- tablet_phone -->
 				
 			</div><!-- tablet_free_consult_wrapper -->
 			
@@ -138,7 +138,7 @@
 			
 		<div class="sticky_email">
 			
-			<a href="mailto:">
+			<a href="#consultation">
 				
 				<?php echo file_get_contents("wp-content/themes/watts/images/ico-email-white.svg"); ?>
 				
@@ -151,9 +151,9 @@
 			
 			<div class="tablet_free_consult_wrapper">
 				
-				<span class="tablet_free_consult">Free Consultation</span><!-- tablet_free_consult -->
+				<span class="tablet_free_consult"><?php the_field( 'free_consultation_section_one_header_verbige','option'); ?></span><!-- tablet_free_consult -->
 				
-				<a class="tablet_phone" href="te:(800) 294-0055">(800) 294-0055</a><!-- tablet_phone -->
+				<a class="tablet_phone" href="tel:<?php the_field( 'firm_phone','option'); ?>"><?php the_field( 'firm_phone','option'); ?></a><!-- tablet_phone -->
 				
 			</div><!-- tablet_free_consult_wrapper -->
 			
@@ -187,7 +187,7 @@
 			
 		</div><!-- menu_wrapper -->
 		
-		<a class="email" href="mailto:">
+		<a class="email" href="#consultation">
 			
 			<?php echo file_get_contents("wp-content/themes/watts/images/ico-email.svg"); ?>
 			
@@ -220,9 +220,9 @@
 		
 		<div class="free_consult_bar">
 			
-			<span>Free Consultation</span>
+			<span><?php the_field( 'free_consultation_section_one_header_verbige','option'); ?></span>
 			
-			<a href="tel:(800) 294-0055">(800) 294-0055</a>
+			<a href="tel:<?php the_field( 'firm_phone','option'); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 			
 		</div><!-- free_consult_bar -->
 		

@@ -3,25 +3,22 @@
 	
 	<div class="sec_three_inner content">
 		
-		<h1>San antonio personal injury attorneys</h1>
+		<h1><?php the_field( 'section_three_header' ); ?></h1>
 		
 		<div class="sec_three_top">
 			
 			<div class="sec_three_left">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/img-1.jpg"/>
+				<?php $section_three_image = get_field( 'section_three_image' ); ?>
+				
+				<img src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
 				
 			</div><!-- sec_three_left -->
 			
 			<div class="sec_three_right">
 				
-				
-				<h2>Pellentesque tempus lobortis dolor, in blandit metus congue ac</h2>
-				
-				<p>Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus. mi, fermentum id interdum eget, ultricies sit amet neque. Aenean efficitur aliquam mauris, in sodales ex tristique id. Curabitur est urna, ultrices ac tempor ac, varius porta velit. Nunc dui ante, suscipit non odio in, tincidunt lobortis ipsum. Vestibulum mollis lorem urna, sed fringilla lectus efficitur sed.</p>
-
-				<p>Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla. Nam et fringilla sapien, ac ullamcorper nunc. Suspendisse potenti. Nullam id lacinia diam, nec facilisis diam. Pellentesque eget sapien non erat porttitor ullamcorper. Donec maximus sapien eu eleifend viverra. In fringilla faucibus lectus, in efficitur metus suscipit sit amet. Nunc rhoncus nisl non leo lacinia, eget porta ex laoreet. Nulla est turpis, aliquam ut tempus eu, pharetra in leo. Sed ullamcorper felis hendrerit, placerat tellus at, fermentum ex.</p>
-				
+				<?php the_field( 'section_three_content' ); ?>
+						
 			</div><!-- sec_three_right -->
 			
 		</div><!-- sec_three_top -->
@@ -32,14 +29,13 @@
 			
 				<div class="sec_three_middle_left">
 				
-					<span>We will go to work for you, employing the best experts, and using the most<br/> up-to-date technology.</span>
+					<span><?php the_field( 'section_three_middle_left' ); ?></span>
 				
 				</div><!-- sec_three_middle_left -->
 			
 				<div class="sec_three_middle_right">
 				
-					<span>Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla. Morbi id ex interdum, vulputate diam pretium, bibendum lectus. Morbi leo mi, fermentum id interdum eget, ultricies sit amet neque.</span>
-				
+					<span><?php the_field( 'section_three_middle_right' ); ?></span>
 				
 				</div><!-- sec_three_middle_right -->
 			
@@ -50,18 +46,8 @@
 		
 		<div class="sec_three_bottom">
 			
-			<h2 class="no_padding">Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
-			
-			<p>Curabitur felis l ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus. Morbi leo mi, fermentum id interdum eget, ultricies sit amet neque. Aenean efficitur aliquam mauris, in sodales ex tristique id. Donec pharetra, nibh id volutpat molestie, dolor erat vestibulum diam,</p>
-			
-			<p>Curabitur est urna, ultrices ac tempor ac, varius porta velit. Nunc dui ante, suscipit non odio in, tincidunt lobortis ipsum.  Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla. Nam et fringilla sapien, ac ullamcorper nunc. Suspendisse potenti</p>
-			
-			<p>Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula. Donec molestie elit gravida, consequat quam sed, porttitor arcu. Donec vitae augue in ipsum tincidunt volutpat. Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, bibendum lectus.</p>
-			
-<h2>Pellentesque sodales interdum auctor tempus lobortis dolor, in blandit.</h2>
-	
-	<p>Donec pharetra, nibh id volutpat molestie, dolor erat vestibulum diam, Curabitur est urna, ultrices ac tempor ac, varius porta velit. Nunc dui ante, suscipit non odio in, tincidunt lobortis ipsum. Vestibulum mollis lorem urna, sed fringilla lectus efficitur sed. Curabitur felis ligula, placerat non efficitur vel, ornare nec ligula.  Nam at felis vitae orci dignissim pretium et vel nulla.Morbi id ex interdum, vulputate diam pretium, eget bibendum lectus.</p>
-			
+			<?php the_field( 'section_three_bottom' ); ?>			
+		
 		</div><!-- sec_three_bottom -->
 		
 	</div><!-- sec_three_inner -->

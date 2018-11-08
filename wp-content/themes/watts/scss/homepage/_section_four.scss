@@ -159,6 +159,7 @@
 		width:42px;
 		display: flex !important;
 		align-items: center;
+		cursor: pointer;
 		&:hover {
 			svg#arrow {
 				fill:$blueone;
