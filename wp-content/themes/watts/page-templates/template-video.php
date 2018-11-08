@@ -10,11 +10,7 @@ get_header(); ?>
 <h1 class="centered"><?php the_title();?></h1>
 	
 <div class="internal_container video_wrappper">
-	
-	
 
-	
-		
 		<?php if(get_field('video_center')): ?>
 		 
 			<?php while(has_sub_field('video_center')): ?>
@@ -61,7 +57,7 @@ get_header(); ?>
 						
 							</div><!-- play_button_wrapper -->
 					
-							<span class="video_title">Marshall Trial Cross of Dr. Wortham</span><!-- video_title -->
+							<span class="video_title"><?php the_sub_field( 'video_title' ); ?></span><!-- video_title -->
 					
 					</div><!-- video_text_wrapper -->
 				

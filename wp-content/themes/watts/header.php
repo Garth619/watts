@@ -54,7 +54,15 @@
 			
 			<a class="mobile_logo" href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				<?php 
+					
+							$desktop_logo = get_field( 'desktop_logo','option');
+				
+							$desktop_logo_white = get_field( 'desktop_logo_white','option');
+				
+				?>
+				
+				<img src="<?php echo $desktop_logo['url']; ?>" alt="<?php echo $desktop_logo['alt']; ?>" />
 				
 			</a><!-- mobile_logo -->
 			
@@ -91,10 +99,10 @@
 			
 			<a class="tablet_logo" href="<?php bloginfo('url');?>">
 				
-				<img class="dark_logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+				<img class="dark_logo" src="<?php echo $desktop_logo['url']; ?>" alt="<?php echo $desktop_logo['alt']; ?>" />
 				
-				<img class="white_logo" src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/>
-			
+				<img class="white_logo" src="<?php echo $desktop_logo_white['url']; ?>" alt="<?php echo $desktop_logo_white['alt']; ?>" />
+							
 			</a><!-- tablet_logo -->
 			
 			<div class="tablet_free_consult_wrapper">

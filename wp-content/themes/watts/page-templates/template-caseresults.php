@@ -10,7 +10,7 @@ get_header(); ?>
 		
 			<h1><?php the_title();?></h1>
 			
-			<a class="button" href="#consultation">Request Free Consultation Here</a><!-- button -->
+			<a class="button" href="#consultation"><?php the_field( 'request_button_verbiage',10); ?></a><!-- button -->
 			
 		</div><!-- internal_banner_inner -->
 	

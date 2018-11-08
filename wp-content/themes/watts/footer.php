@@ -152,7 +152,7 @@
 	
 	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank" rel="noopener">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
+		<img alt="iLawyer Marketing Logo" src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
 		
 	</a>
 	

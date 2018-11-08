@@ -9,9 +9,9 @@
 
 <div class="internal_container content">
 	
-	<h1 class="centered">Not Found</h1>
+	<h1 class="centered"><?php the_field( 'not_found_header','option'); ?></h1>
 	
-	<p>This page is not found, please return <a href="<?php bloginfo('url');?>">home</a> or <span class="go_back" onclick="goBack()">go back</span></p>
+	<p><?php the_field( 'not_found_verbiage','option'); ?></p>
 
 	
 			

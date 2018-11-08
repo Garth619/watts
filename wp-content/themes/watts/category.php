@@ -5,9 +5,9 @@
 	
 		<div class="internal_banner_inner">
 		
-			<span>Trial lawyers achieving serious high-value results </span>
+			<span><?php the_field( 'internal_banner_verbiage','option'); ?> </span>
 			
-			<a class="button" href="#consultation">Request Free Consultation Here</a><!-- button -->
+			<a class="button" href="#consultation"><?php the_field( 'request_button_verbiage',10); ?></a><!-- button -->
 			
 		</div><!-- internal_banner_inner -->
 	

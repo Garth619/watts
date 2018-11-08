@@ -25,13 +25,13 @@
 			
 			<div class="logo_consult_wrapper">
 				
-				<?php $small_logo = get_field( 'small_logo' ); ?>
-			
-				<img src="<?php echo $small_logo['url']; ?>" alt="<?php echo $small_logo['alt']; ?>" />
+				<?php $footer_logo = get_field( 'footer_logo','option'); ?>
+		
+				<img src="<?php echo $footer_logo['url']; ?>" alt="<?php echo $footer_logo['alt']; ?>" />
 			
 				<div class="contact_consult_wrapper">
 				
-					<span><?php the_field( 'contact_page_consultation_verbiage' ); ?></span>
+					<span><?php the_field( 'free_consultation_section_one_header_verbige','option'); ?></span>
 				
 					<a href="tel:<?php the_field( 'firm_phone' ); ?>"><?php the_field( 'firm_phone','options'); ?></a>
 					

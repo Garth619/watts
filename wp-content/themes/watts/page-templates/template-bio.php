@@ -35,7 +35,7 @@ get_header(); ?>
 							
 							<div class="bio_play_wrapper"></div><!-- bio_play_wrapper -->
 							
-							<span class="bio_video_title">Hear from the Attorney</span><!-- bio_video_title -->
+							<span class="bio_video_title"><?php the_field( 'att_video_title'); ?></span><!-- bio_video_title -->
 							
 						</div><!-- bio_video_title_wrapper -->
 					
@@ -108,7 +108,7 @@ get_header(); ?>
 							
 							<div class="bio_play_wrapper"></div><!-- bio_play_wrapper -->
 							
-							<span class="bio_video_title">Hear from the Attorney</span><!-- bio_video_title -->
+							<span class="bio_video_title"><?php the_field( 'att_video_title'); ?></span><!-- bio_video_title -->
 							
 						</div><!-- bio_video_title_wrapper -->
 					
