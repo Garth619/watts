@@ -5,9 +5,9 @@
 	
 	<div class="form_inner">
 	
-		<span class="small_header">we believe in our ability to win your case</span><!-- small_header -->
+		<span class="small_header"><?php the_field( 'form_sub_header','option'); ?></span><!-- small_header -->
 	
-		<span class="large_header">You won’t pay anything unless we recover on your behalf.</span><!-- large_header -->
+		<span class="large_header"><?php the_field( 'form_large_header','option'); ?></span><!-- large_header -->
 	
 		<?php gravity_form(1, false, false, false, '', true, 355); ?>
 	
@@ -21,97 +21,66 @@
 	
 	<div class="locations_inner">
 		
-		<img class="footer_logo" src="<?php bloginfo('template_directory');?>/images/logo_ICO.svg"/>
+		<?php $footer_logo = get_field( 'footer_logo','option'); ?>
+		
+		<img class="footer_logo" src="<?php echo $footer_logo['url']; ?>" alt="<?php echo $footer_logo['alt']; ?>" />
 		
 		<div class="location_columns">
 			
-			<div class="single_location loc_col">
+		<?php if(get_field('locations','option')): ?>
+		 
+			<?php while(has_sub_field('locations','option')): ?>
+		 
+				<?php if( get_sub_field('address_phone_number_or_copyright') == 'New Location' ) { ?>
 				
-				<span class="location_title">San Antonio</span><!-- location_title -->
+					<div class="single_location loc_col">
 				
-				<span class="address">4 Dominion Dr.<br/> Bld 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
+						<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
 				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
+						<span class="address"><?php the_sub_field( 'address' ); ?></span><!-- address -->
 				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
+						<a class="directions" href="<?php the_sub_field( 'directions_link' ); ?>" target="_blank" rel="noopener">Directions</a>
 				
-				<span class="location_title">Austin</span><!-- location_title -->
-				
-				<span class="address">811 Barton Springs Rd<br/> Suite 725<br/> Austin, TX 78704</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">Santa Rosa</span><!-- location_title -->
-				
-				<span class="address">70 Stony Point Rd<br/> Suite A<br/> Santa Rosa, CA 95401</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">San Antonio</span><!-- location_title -->
-				
-				<span class="address">5726 W. Hausman Rd<br/> Suite 119<br/> San Antonio, TX 78249</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">Brownsville</span><!-- location_title -->
-				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="loc_col">
-				
-				<a class="loc_phone" href="tel:(800) 294-0055">(800) 294-0055</a><!-- loc_phone -->
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">Odessa</span><!-- location_title -->
-				
-				<span class="address">620 N. Grant St<br/> Suite 1205<br/> Odessa, TX 797617</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="single_location loc_col">
-				
-				<span class="location_title">Corpus Christi</span><!-- location_title -->
-				
-				<span class="address">13434 Leopard<br> Suite A-3<br> Corpus Christi, TX 78410</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-				
-			</div><!-- loc_col -->
-			
-			<div class="loc_col copyright_col">
-				
-				<span class="copyright_title">&copy;2018 Watts Guerra LLP . All rights reserved.</span>
+					</div><!-- loc_col -->
 
-				<span class="copyright_disclaimer">Mikal Watts & Frank Guerra are the attorneys responsible for the content of this website. Our attorneys are all licensed to practice in the State of Texas. Mikal Watts, Francisco Guerra IV, and Jose G. "Joey" Gonzalez, Jr. are Board Certified in Personal Injury Trial Law by the Texas Board of Legal Specialization. Michael J. Murray are Board Certified in Civil Appellate Law by the Texas Board of Legal Specialization. Unless otherwise indicated, attorneys are not board certified. Principal office is located in San Antonio, Texas.</span>
 				
-			</div><!-- loc_col -->
+				
+				<?php }
+				
+					if( get_sub_field('address_phone_number_or_copyright') == 'Phone' ) { ?>
+					
+					
+					<div class="loc_col">
+				
+						<a class="loc_phone" href="tel:<?php the_field( 'firm_phone','options'); ?>"><?php the_field( 'firm_phone','options'); ?></a><!-- loc_phone -->
+				
+					</div><!-- loc_col -->
+				
+				
+				<?php } 
+					
+					if( get_sub_field('address_phone_number_or_copyright') == 'Copyright Verbiage' ) { ?>
+					
+						
+						<div class="loc_col copyright_col">
+				
+							<span class="copyright_title"><?php the_field( 'copyright_title','option'); ?></span>
+
+							<span class="copyright_disclaimer"><?php the_field( 'copyright','option'); ?></span>
+				
+						</div><!-- loc_col -->
+				
+				
+				<?php } ?>
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>	
 			
+						
 		</div><!-- location_columns -->
 		
-		<a class="button locations_button" href="">View All Locations</a>
+		<a class="button locations_button" href="<?php the_field( 'view_all_locations_link','option'); ?>"><?php the_field( 'view_all_locations_verbiage','option'); ?></a>
 		
 	</div><!-- locations_inner -->
 	
@@ -123,41 +92,62 @@
 		
 		<div class="mobile_disclaimer">
 			
-			<span class="copyright_title">&copy;2018 Watts Guerra LLP . All rights reserved.</span>
+			<span class="copyright_title"><?php the_field( 'copyright_title','option'); ?></span>
 
-			<span class="copyright_disclaimer">Mikal Watts & Frank Guerra are the attorneys responsible for the content of this website. Our attorneys are all licensed to practice in the State of Texas. Mikal Watts, Francisco Guerra IV, and Jose G. "Joey" Gonzalez, Jr. are Board Certified in Personal Injury Trial Law by the Texas Board of Legal Specialization. Michael J. Murray are Board Certified in Civil Appellate Law by the Texas Board of Legal Specialization. Unless otherwise indicated, attorneys are not board certified. Principal office is located in San Antonio, Texas.</span>
+			<span class="copyright_disclaimer"><?php the_field( 'copyright','option'); ?></span>
 			
 		</div><!-- mobile_disclaimer -->
 		
 	<ul>
+		
+		<?php if(get_field('google_plus_link','option')) { ?>
+		
 		<li>
-			<a href="" target="_blank" rel="noopener">
+			<a href="<?php the_field( 'google_plus_link', 'option'); ?>" target="_blank" rel="noopener">
 				
 				<?php echo file_get_contents("wp-content/themes/watts/images/googleplus.svg"); ?>
 				
 			</a>
 		</li>
+		
+		<?php } 
+			
+			if(get_field('facebook_link','option')) { ?>
+		
 		<li>
-			<a href="" target="_blank" rel="noopener">
+			<a href="<?php the_field( 'facebook_link', 'option'); ?>" target="_blank" rel="noopener">
 				
 				<?php echo file_get_contents("wp-content/themes/watts/images/facebook.svg"); ?>
 				
 			</a>
 		</li>
+		
+		<?php }
+			
+			if(get_field('twitter_link','option')) { ?>
+		
 		<li>
-			<a href="" target="_blank" rel="noopener">
+			<a href="<?php the_field( 'twitter_link', 'option'); ?>" target="_blank" rel="noopener">
 				
 				<?php echo file_get_contents("wp-content/themes/watts/images/twitter.svg"); ?>
 				
 			</a>
 		</li>
+		
+		<?php } 
+		
+			if(get_field('linked_in_link','option')) { ?>
+		
 		<li>
-			<a href="" target="_blank" rel="noopener">
+			<a href="<?php the_field( 'linked_in_link', 'option'); ?>" target="_blank" rel="noopener">
 				
 				<?php echo file_get_contents("wp-content/themes/watts/images/linkedin.svg"); ?>
 				
 			</a>
 		</li>
+		
+		<?php }?>
+		
 	</ul>
 	
 	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank" rel="noopener">
