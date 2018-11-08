@@ -47,9 +47,7 @@
 
 .sec_seven_single_pa {
 	float:left;
-	width:23.5%;
-	height:387px;
-	box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.64);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.54);
 	position: relative;
 	background: $bluedark;
 	position: relative;
@@ -76,10 +74,10 @@
 		padding:0 45px 45px;
 		img {
 			position: absolute;
-			top:30px;
-			right:30px;
-			width:75px;
-			height:75px;
+			top:24px;
+			right:24px;
+			width:100px;
+			height:100px;
 		}
 		.sec_seven_reg {
 			
@@ -93,6 +91,7 @@
 				font-family: $poppins;
 				font-weight:600;
 				font-size:22px;
+				line-height: 30px;
 				letter-spacing: 0.05em;
 				position: relative;
 				z-index: 1;
@@ -102,7 +101,7 @@
 					width:30px;
 					height:3px;
 					background: $bluetwo;
-					margin-top:30px;
+					margin-top:25px;
 					opacity: 1;
 					transition: all 200ms ease-in-out;
 				}
@@ -124,6 +123,8 @@
 
 .sec_seven_single_pa {
 	margin-right:2%;
+	width:23.5%;
+	height:387px;
 	&:nth-of-type(4n + 4) {
 		margin-right:0;
 	}
@@ -190,8 +191,10 @@ a.pa_view_all {
 	a {
 		padding: 0 26px 23px;
 		img {
-			width:62px;
-			height:62px;
+			top: 16px;
+			right: 16px;
+			width:82px;
+			height:82px;
 		}
 		.sec_seven_reg {
 			
@@ -228,6 +231,77 @@ a.pa_view_all {
 	  .sec_seven_pa {
    		 margin: 70px 0 11px;
 		}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1350px) {
+	
+	.sec_seven_single_pa {
+    height: 270px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+.sec_seven_single_pa {
+	margin-right:4%;
+	width:47.5%;
+	height:315px;
+	&:nth-of-type(4n + 4) {
+		margin-right:4%;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right:0;
+	}
+	&:nth-of-type(-n + 4) {
+		display: none;
+	}
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1130px) {
+	
+
+.sec_seven_inner {
+ 	padding: 95px 60px 108px;
+}
+
+.sec_seven_pa {
+  margin: 46px 0 11px;
+}
+
+.sec_seven_single_pa {
+	margin-bottom: 25px;
+	&:nth-of-type(-n + 4) {
+		
+	}
+	a {
+		padding: 0 26px 34px;
+	}
+}
+
+
+
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	#section_seven {
+		display: none;	
+	}
 	
 	
 } /* Media Query */
