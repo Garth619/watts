@@ -94,6 +94,10 @@ h1,h2,h3,h4 {
 				}
 			}
 		}
+		
+	
+		
+
 
 	
 	h1 {
@@ -107,6 +111,24 @@ h1,h2,h3,h4 {
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
+	
+	
+	// i guess only some mock ups have capitalized header?
+	
+	body.page-template-template-bio,
+	body.page-template-template-meetteam,
+	body.page-template-template-about,
+	body.page-template-template-video,
+	body.page-template-template-contact {
+		h1 {
+			text-transform: none;
+		}
+	}
+	
+	
+	
+	
+	
 	h1.centered {
 		text-align: center;
 		padding-top:82px;
@@ -114,6 +136,9 @@ h1,h2,h3,h4 {
 		margin-left:auto;
 		margin-right:auto;
 	}
+	
+	
+	
 
 
 .content {
@@ -167,6 +192,12 @@ h1,h2,h3,h4 {
 		display: inline-block;
 		position: relative;
 		cursor: pointer;
+/*
+		padding-bottom:0px;
+		border-bottom:1px solid $blueone;
+*/
+		 text-decoration: underline;
+/*
 		&:after {
 			content:"";
 			display: block;
@@ -178,8 +209,10 @@ h1,h2,h3,h4 {
 			left:0;
 			transition: all 200ms ease-in-out;
 		}
+*/
 		&:hover {
 			color:$bluedark;
+			//border-bottom:1px solid $bluedark;
 			&:after {
 				background: $bluedark;
 			}

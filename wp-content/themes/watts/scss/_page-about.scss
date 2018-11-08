@@ -99,6 +99,9 @@
 	position: relative;
 	overflow: hidden;
 	flex-basis:25%;
+	a {
+		text-decoration: none;
+	}
 	&:hover {
 		.single_pa_hover {
 			opacity: 1;
@@ -155,15 +158,17 @@
 		width:100%;
 		height:100%;
 		background: $playbuttongrad;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height:100%;
-		flex-direction: column;
 		opacity: 0;
 		visibility: hidden;
 		transform: translateY(100%);
 		transition: transform 700ms cubic-bezier(.17,.66,.34,.98), opacity 300ms cubic-bezier(.17,.66,.34,.98), visibility 300ms cubic-bezier(.17,.66,.34,.98);
+		a {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height:100%;
+		}
 		img {
 			display: block;
 			opacity: 0;
@@ -335,7 +340,62 @@
 	}
 	
 	
+.about_single_pa {
 	
+	a {
+		
+	}
+	.single_pa_hover {
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(0);
+		img {
+				opacity: 0;
+				visibility: hidden;
+				transform: translateY(0);
+			}
+			span.single_pa_hover_content {
+				opacity: 0;
+				visibility: hidden;
+				transform: translateY(0);
+			}
+	}
+	&:hover {
+		.single_pa_hover {
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(0);
+			img {
+				opacity: 0;
+				visibility: hidden;
+				transform: translateY(0);
+			}
+			span.single_pa_hover_content {
+				opacity: 0;
+				visibility: hidden;
+				transform: translateY(0);
+			}
+		}
+	}
+}
+
+
+.about_single_pa.open {
+	.single_pa_hover {
+		opacity: 1;
+		visibility: visible;
+		img {
+			opacity: 1;
+			visibility: visible;
+			transition-delay: 0;
+		}
+		span.single_pa_hover_content {
+			opacity: 1;
+			visibility: visible;
+			transition-delay: 0;
+		}
+	}
+}
 	
 	
 	

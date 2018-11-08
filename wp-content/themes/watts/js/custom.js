@@ -484,6 +484,41 @@ checkWidthmenu();
 
 
 
+// about taps on tablet
+
+
+
+
+
+
+	function checkaboutwidth() {
+    
+    if (windowWidth < 1066) {
+        
+      
+    	$('.about_single_pa').on('click', function(e) {
+    	  
+    		$('.about_single_pa').removeClass('open');
+    		
+    		$(this).addClass('open');
+    	
+    	});
+    	   		
+    		
+    } 
+    
+    
+ 
+};
+	
+
+checkaboutwidth();
+
+
+
+
+
+
 
   
 }); // document ready

@@ -72,6 +72,8 @@ get_header(); ?>
 				<?php while(has_sub_field('about_selling_points')): ?>
 			 
 					<div class="about_single_pa">
+						
+						
 				
 						<div class="single_pa_content">
 				
@@ -86,15 +88,20 @@ get_header(); ?>
 						</div><!-- single_pa_content -->
 				
 						<div class="single_pa_hover">
+							
+							<a href="<?php the_sub_field( 'selling_points_link' ); ?>">
 					
-						<?php $svg_hover = get_sub_field( 'svg_hover' ); ?>
+								<?php $svg_hover = get_sub_field( 'svg_hover' ); ?>
 		
-						<img src="<?php echo $svg_hover['url']; ?>" alt="<?php echo $svg_hover['alt']; ?>" />
+								<img src="<?php echo $svg_hover['url']; ?>" alt="<?php echo $svg_hover['alt']; ?>" />
 		
-					
-						<span class="single_pa_hover_content"><?php the_sub_field( 'selling_points_content' ); ?></span><!-- single_pa_hover_content -->
+								<span class="single_pa_hover_content"><?php the_sub_field( 'selling_points_content' ); ?></span><!-- single_pa_hover_content -->
+						
+							</a>
 					
 					</div><!-- single_pa_hover -->
+					
+					
 				
 				</div><!-- about_single_pa -->
 			    

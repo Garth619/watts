@@ -49,76 +49,33 @@
 		
 		<div class="contact_right">
 			
-			<div class="single_location">
-				
-				<span class="location_title">San Antonio</span><!-- location_title -->
-				
-				<span class="address">4 Dominion Dr.<br/> Bld 3, Suite 100<br/> San Antonio, TX 78257</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-
-			</div><!-- single_location -->
 			
-			<div class="single_location">
+			<?php if(get_field('locations','option')): ?>
+		 
+			<?php while(has_sub_field('locations','option')): ?>
+		 
+				<?php if( get_sub_field('address_phone_number_or_copyright') == 'New Location' ) { ?>
 				
-				<span class="location_title">Brownsville</span><!-- location_title -->
+					
+					<div class="single_location">
 				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
+						<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
 				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
+						<span class="address"><?php the_sub_field( 'address' ); ?></span><!-- address -->
+				
+						<a class="directions" href="<?php the_sub_field( 'directions_link' ); ?>" target="_blank" rel="noopener">Directions</a>
+				
+					</div><!-- loc_col -->
 
-			</div><!-- single_location -->
-			
-			<div class="single_location">
 				
-				<span class="location_title">Brownsville</span><!-- location_title -->
+				<?php } ?>
 				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
+									
+		   <?php endwhile; ?>
+		 
+		<?php endif; ?>	
 
-			</div><!-- single_location -->
-			
-			<div class="single_location">
 				
-				<span class="location_title">Brownsville</span><!-- location_title -->
-				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-
-			</div><!-- single_location -->
-			
-			<div class="single_location">
-				
-				<span class="location_title">Brownsville</span><!-- location_title -->
-				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-
-			</div><!-- single_location -->
-			
-			<div class="single_location">
-				
-				<span class="location_title">Brownsville</span><!-- location_title -->
-				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-
-			</div><!-- single_location -->
-			
-			<div class="single_location">
-				
-				<span class="location_title">Brownsville</span><!-- location_title -->
-				
-				<span class="address">2406 Thor’s Hammer Blvd<br/> Suite 200<br/> Brownsville, TX 78256</span><!-- address -->
-				
-				<a class="directions" href="" target="_blank" rel="noopener">Directions</a>
-
-			</div><!-- single_location -->
-			
 			
 		</div><!-- contact_right -->
 		
