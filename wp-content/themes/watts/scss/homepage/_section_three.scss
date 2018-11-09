@@ -15,6 +15,9 @@
 		max-width:890px;
 		margin-top:-47px;
 		padding-bottom: 12px;
+		background:linear-gradient(135deg, #0750e0 35%,#1d3ec0 61%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 		&:before {
 			content:"";
 			display: block;
@@ -50,7 +53,7 @@
 .sec_three_right {
 	flex-basis: 50%;
 	text-align: left;
-	padding-left:5%;
+	padding-left:6%;
 	padding-top:11px;
 	h2 {
 		padding-top:0px;
@@ -58,7 +61,7 @@
 }
 
 .sec_three_middle {
-	margin:90px 0 0 0px;
+	margin: 117px 0 0 0px;
 	position: relative;
 	&:before {
 		content:"";
@@ -103,7 +106,7 @@
 
 .sec_three_middle_right {
 	flex-basis: 50%;
-	padding-left: 5%;
+	padding-left: 6%;
 	span {
 		color:$bluedark;
 		font-size:20px;
@@ -116,9 +119,9 @@
 .sec_three_bottom {
 	text-align: left;
 	 max-width: 1415px;
-	 margin:100px auto 125px;
+	 margin:100px auto 95px;
 	 column-count:2;
-	 column-gap:10%;
+	 column-gap:12%;
 	 h2 {
 		 padding-top:16px;
 	 }
@@ -183,22 +186,22 @@
 	
 	.sec_three_middle {
 		margin: 65px 0 0 0px;
-/*
-		padding-left:110px;
-		padding-right:110px;
-*/
+		&:before {
+			width:85%;
+			left:15%;
+		}
+
 	}
 	
 	
 	.sec_three_top {
 	padding: 39px 125px 0;
-/*
-		padding-left:110px;
-		padding-right:110px;
-*/
+
 	}
 	
 	.sec_three_inner {
+		padding-top: 101px;
+		padding-bottom:102px;
 		h1 {
 			&:before {
 				margin: 0 auto 31px;
@@ -220,7 +223,7 @@
   .sec_three_middle_inner {
 	  max-width: 1750px;
 	  margin-left:125px;
-	  //padding-right:0px;
+	 
   }
   
       
@@ -240,18 +243,13 @@
   
   
   .sec_three_bottom {
-	  margin-left:125px;
-	  //padding-left:30px;
-	  //column-gap: 7%;
-	  column-gap:8.5%;
+	   margin: 94px 0 91px 125px;
+		 column-gap:8.5%;
 	  padding-right:125px;
-/*
-	  max-width: 1750px;
-	  padding-right:83px;
-	  padding-left:83px;
-*/
+
   }
-	
+  
+       
 	
 	
 } /* Media Query */
@@ -330,6 +328,7 @@
 	
 	
 	.sec_three_inner {
+		padding-bottom:0;
 		h1 {
 			padding-left:60px;
 			padding-right:60px;
@@ -349,8 +348,8 @@
 	
 	
 	.sec_three_middle {
-		padding-left:60px;
-		padding-right:60px;
+		padding-left:95px;
+		padding-right:95px;
 	}
 	
 	.sec_three_middle_inner {

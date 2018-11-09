@@ -220,14 +220,14 @@ span.bio_video_title {
   }
   
   .att_bio_intro_right {
-    padding: 124px 60px 103px;
+    padding: 124px 125px 103px;
 	}
 	
 	
 	.att_bio_intro {
 		width: 100vw;
 		position: relative;
-		left:-60px;
+		left: -125px;
 		margin: 0 auto 122px;
 	}
 	
@@ -237,6 +237,25 @@ span.bio_video_title {
 	}
 	
 
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+	.att_bio_intro {
+		left:-60px;
+	}
+	
+	
+	.att_bio_intro_right {
+		padding-left:60px;
+		padding-right:60px;
+	}
+	
+	
 	
 } /* Media Query */
 

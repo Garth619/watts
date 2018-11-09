@@ -198,11 +198,14 @@
 	justify-content: space-between;
 	padding:0 125px;
 	max-width:1670px;
-	margin:160px auto 75px;
+	margin: 177px auto 114px;;
 }
 
 .about_sp_col {
 	flex-basis:45%;
+	&:last-of-type {
+		padding-top:15px;
+	}
 	h2 {
 		color:$blueone;
 		font-family: $poppins;
@@ -338,6 +341,13 @@
 		margin: 86px auto 0px;
 		display: block;
 	}
+	
+	.about_sp_col {
+		&:last-of-type {
+			padding-top:15px;
+		}
+	}
+	
 	
 	
 .about_single_pa {

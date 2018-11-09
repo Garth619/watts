@@ -76,7 +76,7 @@ body.blog, body.single, body.archive, body.category {
 
 
 .blog_feed {
-	
+	padding-top:8px;
 }
 
 body.single {
@@ -106,6 +106,7 @@ body.single {
 		text-transform: uppercase;
 		line-height: 23px;
 		display: block;
+		padding-bottom:6px;
 	}
 	ul.post-categories {
 		list-style: none;
