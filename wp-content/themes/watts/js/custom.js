@@ -5,12 +5,7 @@
 
 jQuery(document).ready(function($){
 	
-		
 
-		
-				
-		
-		
 	
 	 /* Modernizr - check if browser supports webp. 
      --------------------------------------------------------------------------------------- */
@@ -88,26 +83,32 @@ jQuery(document).ready(function($){
         });
       }
     }
-
+		
+		$('#section_one').addClass('visible');
+		
+		$('#internal_main').addClass('visible');
+		
+		$('.internal_banner').addClass('visible');
+		
 
     createWaypoint('section_one', '.sticky_header', 'visible', 0, null, true);
     createWaypoint('section_one', 'nav', 'move', 0, null, true);
     
+    createWaypoint('section_three', '#section_three', 'visible', 350, null, false);
     
-   
-    
-    
-        
-    
+    createWaypoint('section_four', '#section_four', 'visible', 350, null, false);
+    createWaypoint('sec_four_right_trigger', '.sec_four_right', 'visible', 100, null, false);
     
     
+    createWaypoint('section_five', '#section_five', 'visible', 350, null, false);
+    createWaypoint('section_six', '#section_six', 'visible', 350, null, false);
+    createWaypoint('footer_trigger', 'footer', 'visible', 350, null, false);
     
-      
+    createWaypoint('section_seven', '#section_seven', 'visible', 350, null, false);
     
+    createWaypoint('meetteam_trigger', '.meetteam_wrapper', 'visible', 500, null, false);
+ 
     
-    
-    
-
 
 
     /* Smooth Scroll down to section on click (<a href="#id_of_section_to_be_scrolled_to">)
@@ -146,10 +147,6 @@ jQuery(document).ready(function($){
     // });
 
     // createWaypoint('section-1', null, null, '100%', wistiaLoad, false)
-
-
-
-
 
 
 

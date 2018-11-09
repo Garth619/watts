@@ -20,7 +20,7 @@
 		
 	</div><!-- sec_four_left -->
 	
-	<div class="sec_four_right">
+	<div id="sec_four_right_trigger" class="sec_four_right">
 		
 		<div class="sec_four_right_inner">
 			

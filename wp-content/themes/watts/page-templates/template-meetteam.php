@@ -105,7 +105,7 @@ get_header(); ?>
 				
 	</div><!-- att_partners -->
 
-	<div class="internal_container meetteam_wrapper">
+	<div id="meetteam_trigger" class="internal_container meetteam_wrapper">
 		
 		<?php if(get_field('our_team_directory')): ?>
 		 
