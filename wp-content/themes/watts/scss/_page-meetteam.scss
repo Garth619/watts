@@ -289,7 +289,19 @@ body.page-template-template-meetteam {
 	.att_partners, .meetteam_wrapper {
 		padding:0 60px;
 	}
-
+	
+	
+	.meetteam_section {
+		&:last-of-type {
+			.meetteam_members {
+				.single_attorney {
+					&:nth-last-of-type(-n + 2) {
+						margin-bottom:0;
+					}
+				}
+			}
+		}
+	}
 	
 	
 } /* Media Query */
@@ -373,6 +385,22 @@ body.page-template-template-meetteam {
 		}
 	}
 }
+
+
+	.meetteam_section {
+		&:last-of-type {
+			.meetteam_members {
+				.single_attorney {
+					&:nth-last-of-type(-n + 2) {
+						margin-bottom:45px;
+					}
+					&:last-of-type {
+						margin-bottom:0px;
+					}
+				}
+			}
+		}
+	}
 
 
 	

@@ -1,5 +1,24 @@
 footer {
-	
+	//margin-top:-37px;
+	&:before {
+		content:"";
+		width:3px;
+		height:140px;
+		background:$bluetwo;
+		display: block;
+		margin:-70px auto -70px;
+		position: relative;
+		z-index:1;
+	}
+}
+
+
+body:not(.page-template-template-home) {
+	footer {
+		&:before {
+			display: none;
+		}
+	}
 }
 
 
@@ -525,7 +544,6 @@ footer {
 		
 		.location_columns {
 			margin-top: 40px;
-			
 		}
 		
 		
@@ -603,10 +621,56 @@ footer {
 	
 	@media screen and (max-width: 1066px) {
 		
+		
+		footer {
+			&:before {
+				height:113px;
+				margin: -63px auto -51px;
+			}
+		}
+		
+		// random blueline/no blueline scenarios on mock ups...   :(
+		
+		body.page-template-template-about,
+		body.page-template-template-bio,
+		body.page-template-template-meetteam,
+		body.page-template-template-padirectory,
+		body.page-template-template-video,
+		body.page-template-template-caseresults,
+		body.page-template-template-testimonials,
+		body.page-template-template-contact {
+			footer {
+				margin-top:135px;
+				&:before {
+					display: block;
+				}
+			}
+		}
+		
+		
+		// random blueline/no blueline scenarios on mock ups...    :(
+		
+		body.page-template-default,
+		body.blog,
+		body.category,
+		body.archive,
+		body.single {
+			footer {
+				&:before {
+					margin-top:0;
+				}
+			}
+			.form_wrapper {
+				padding-top:95px;
+			}
+		}
+		
 		.locations_wrapper {
 			padding-left:60px;
 			padding-right:60px;
 		}
+		
+		
 		
 		
 	} /* Media Query */
@@ -631,8 +695,25 @@ footer {
 	@media screen and (max-width: 767px) {
 		
 		
+		body.page-template-default,
+		body.blog,
+		body.category,
+		body.archive,
+		body.single {
+			footer {
+				&:before {
+					
+				}
+			}
+			.form_wrapper {
+				padding-top:75px;
+			}
+		}
+		
+		
+		
 		.form_wrapper {
-			 padding: 99px 40px 55px;
+			 padding: 107px 40px 55px;
 			.form_inner {
 				
 			}

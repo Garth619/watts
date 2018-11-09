@@ -174,7 +174,8 @@ a.cr_read_more {
 	.single_case_results {
 		padding-bottom: 94px;
 		&:last-of-type {
-			
+			margin-bottom:0;
+			padding-bottom:0;
 		}
 		.single_case_results_inner {
 			

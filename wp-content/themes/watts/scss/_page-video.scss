@@ -1,7 +1,7 @@
 
 .video_wrappper {
 	max-width:1425px;
-	margin:0 auto;
+	margin:0 auto 15px;
 }
 
 
@@ -223,6 +223,29 @@
 } /* Media Query */
 
 
+
+@media screen and (max-width: 1066px) {
+	
+.video_wrappper {
+	margin-bottom: 0;
+}
+	
+.video_cat_wrapper {
+	&:last-of-type {
+		.video_cat {
+			padding-bottom:0;
+			.single_video {
+				&:nth-last-of-type(-n + 2) {
+					margin-bottom:0px;
+				}
+			}
+		}
+	}
+}
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 767px) {
 	
 	
@@ -236,6 +259,9 @@
 				}
 				&:nth-last-of-type(-n + 2) {
 					margin-bottom:40px;
+				}
+				&:last-of-type {
+					margin-bottom:0;
 				}
 			}
 		}
