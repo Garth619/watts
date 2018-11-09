@@ -64,12 +64,21 @@
 					transform: scale(1.05);
 				}
 			}
+			
 		}
 		.sec_five_video_text {
 			span {
 				color:$blueone;
 			}
+			.play_button_wrapper {
+			.play_button {
+				&:after {
+					opacity: 1;
+				}
+			}
 		}
+		}
+		
 	}
 	a {
 		display: block;
@@ -102,6 +111,19 @@
 						border-left: 12px solid #fff;
 						top: 33px;
 						left: 41px;
+					}
+					&:after {
+						content:"";
+						display: block;
+						width:109px;
+						height:109px;
+						border-radius:50%;
+						border: 2px solid $blueone;
+						position: absolute;
+						top:-10px;
+						left:-10px;
+						opacity: 0;
+						transition: all 300ms ease-in-out;
 					}
 				}
 			}

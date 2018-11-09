@@ -69,6 +69,13 @@
 					color:$blueone;
 				}
 			}
+			.play_button_wrapper {
+				.play_button {
+					&:after {
+						opacity: 1;
+					}
+				}
+			}
 		}
 	}
 	a {
@@ -134,6 +141,19 @@
 						border-top: 16px solid transparent;
 						border-bottom: 16px solid transparent;
 						border-left: 19px solid #fff;
+					}
+					&:after {
+						content:"";
+						display: block;
+						width:140px;
+						height:140px;
+						border-radius:50%;
+						border: 2px solid $blueone;
+						position: absolute;
+						top:-11px;
+						left:-11px;
+						opacity: 0;
+						transition: all 300ms ease-in-out;
 					}
 				}
 			}
@@ -330,6 +350,12 @@
 						border-top: 12px solid transparent;
 						border-bottom: 12px solid transparent;
 						border-left: 17px solid #fff;
+					}
+					&:after {
+						width:117px;
+						height:117px;
+						top:-10px;
+						left:-10px;
 					}
 				}
 			}

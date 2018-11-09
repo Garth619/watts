@@ -27,16 +27,19 @@
 	} 
 	
 	
-	.free_consult_bar {
-		span {
-			transform: translateY(-40px);
-			opacity: 0;
-			transition: opacity 500ms linear, transform 1400ms cubic-bezier(.17,.66,.34,.98);
-		}
-		a {
-			transform: translateY(-40px);
-			opacity: 0;
-			transition: opacity 500ms linear, transform 1400ms cubic-bezier(.17,.66,.34,.98);
+	
+	body.page-template-template-home {
+		.free_consult_bar {
+			span {
+				transform: translateY(-40px);
+				opacity: 0;
+				transition: opacity 500ms linear, transform 1400ms cubic-bezier(.17,.66,.34,.98);
+			}
+			a {
+				transform: translateY(-40px);
+				opacity: 0;
+				transition: opacity 500ms linear, transform 1400ms cubic-bezier(.17,.66,.34,.98);
+			}
 		}
 	}
 
