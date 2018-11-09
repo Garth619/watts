@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 		
-	<div class="internal_banner">
+	<div id="banner_trigger" class="internal_banner">
 	
 		<div class="internal_banner_inner">
 		
