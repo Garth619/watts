@@ -24,7 +24,7 @@
 									
 									<?php $svg_gradient = get_sub_field( 'svg_gradient' ); ?>
 									
-									<img class="grad_svg" src="<?php echo $svg_gradient['url']; ?>" alt="<?php echo $svg_gradient['alt']; ?>" />
+									<img class="grad_svg" data-src="<?php echo $svg_gradient['url']; ?>" alt="<?php echo $svg_gradient['alt']; ?>" />
 					
 									<span class="single_pa_title"><?php the_sub_field( 'pa_title' ); ?></span><!-- single_pa_title -->
 					
@@ -34,7 +34,7 @@
 									
 									<?php $svg_white = get_sub_field( 'svg_white' ); ?>
 									
-									<img class="white_svg" src="<?php echo $svg_white['url']; ?>" alt="<?php echo $svg_white['alt']; ?>" />
+									<img class="white_svg" data-src="<?php echo $svg_white['url']; ?>" alt="<?php echo $svg_white['alt']; ?>" />
 						
 								</div><!-- sec_seven_hover -->
 					

@@ -4,7 +4,7 @@
 		
 		<?php $section_six_svg = get_field( 'section_six_svg' ); ?>
 		
-		<img class="sp_1" src="<?php echo $section_six_svg['url']; ?>" alt="<?php echo $section_six_svg['alt']; ?>" />
+		<img class="sp_1" data-src="<?php echo $section_six_svg['url']; ?>" alt="<?php echo $section_six_svg['alt']; ?>" />
 		
 		<span class="sec_six_intro"><?php the_field( 'section_six_header' ); ?></span><!-- sec_six_intro -->
 		

@@ -23,7 +23,7 @@
 		
 		<?php $footer_logo = get_field( 'footer_logo','option'); ?>
 		
-		<img class="footer_logo" src="<?php echo $footer_logo['url']; ?>" alt="<?php echo $footer_logo['alt']; ?>" />
+		<img class="footer_logo" data-src="<?php echo $footer_logo['url']; ?>" alt="<?php echo $footer_logo['alt']; ?>" />
 		
 		<div class="location_columns">
 			
@@ -152,7 +152,7 @@
 	
 	<a class="ilawyer" href="//ilawyermarketing.com" target="_blank" rel="noopener">
 		
-		<img alt="iLawyer Marketing Logo" src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
+		<img alt="iLawyer Marketing Logo" data-src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
 		
 	</a>
 	
@@ -165,6 +165,7 @@
 
 <?php wp_footer();?>
 
+<?php // the_field( 'live_chat_script','option'); ?>
 
 </body>
 </html>

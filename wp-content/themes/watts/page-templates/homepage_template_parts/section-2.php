@@ -27,7 +27,7 @@
 						
 								<?php $sp_svg = get_sub_field( 'sp_svg' ); ?>
 								
-								<img src="<?php echo $sp_svg['url']; ?>" alt="<?php echo $sp_svg['alt']; ?>" />
+								<img data-src="<?php echo $sp_svg['url']; ?>" alt="<?php echo $sp_svg['alt']; ?>" />
 						
 							</div><!-- sec_two_sp_header -->
 					

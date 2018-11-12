@@ -25,7 +25,7 @@
 							
 							<?php $video_thumbnail = get_sub_field( 'video_thumbnail' ); ?>
 							
-							<img src="<?php echo $video_thumbnail['url']; ?>" alt="<?php echo $video_thumbnail['alt']; ?>" />
+							<img data-src="<?php echo $video_thumbnail['url']; ?>" alt="<?php echo $video_thumbnail['alt']; ?>" />
 							
 						</div><!-- sec_five_img_overlay -->
 						

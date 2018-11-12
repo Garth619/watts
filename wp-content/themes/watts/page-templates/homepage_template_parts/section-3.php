@@ -11,7 +11,7 @@
 				
 				<?php $section_three_image = get_field( 'section_three_image' ); ?>
 				
-				<img src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
+				<img data-src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
 				
 			</div><!-- sec_three_left -->
 			

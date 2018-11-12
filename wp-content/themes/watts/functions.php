@@ -10,7 +10,7 @@
  function load_my_styles_scripts() {
   
     
-    wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
+    // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
     
 
     // disables jquery then registers it again to go into footer
@@ -21,8 +21,34 @@
 
 		// custom js to fall uner jquery in footer
 		    
+    wp_register_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js' );
+
+		
+		// Localized PHP Data that needs to be passed onto my custom-min.js file, this grabs the live chat script acf and applies to my lazyload "getScript" function
+
+			
+		$livechat = get_field('live_chat_script','option');
+		
+		
+		
+			// Localize the script with new data array 
+		
+			$translation_array = array(
+    		'live_chat' => $livechat
+			);
+
+			wp_localize_script( 'jquery-addon', 'my_data', $translation_array );
+		
+		
+		
+		// carry on to enqueue script like normal, but now it contains my needed js variable with php data tied to it from above
+		
+
+		// Enqueue Script
+		    
     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', 'jquery', '', true );
     
+
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
@@ -33,7 +59,7 @@
 -------------------------------------------------------------- */
  
  
-/*
+
 function internal_css_print() {
    echo '<style>';
    
@@ -44,7 +70,7 @@ function internal_css_print() {
 
 
 add_action( 'wp_head', 'internal_css_print' );
-*/
+
 
  
  

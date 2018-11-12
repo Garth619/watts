@@ -4,7 +4,7 @@
 		
 		<div class="sec_four_left_inner">
 		
-			<img class="bull" src="<?php bloginfo('template_directory');?>/images/ico-bull.svg"/>	
+			<img class="bull" data-src="<?php bloginfo('template_directory');?>/images/ico-bull.svg"/>	
 			
 			<span class="sec_four_title"><?php the_field( 'section_four_title' ); ?></span><!-- sec_four_title -->
 			
@@ -14,9 +14,9 @@
 			
 		</div><!-- sec_four_left_inner -->
 		
-		<img class="sec_four_bg desktop" src="<?php bloginfo('template_directory');?>/images/img-test.jpg"/>
+		<img class="sec_four_bg desktop" data-src="<?php bloginfo('template_directory');?>/images/img-test.jpg"/>
 		
-		<img class="sec_four_bg tablet" src="<?php bloginfo('template_directory');?>/images/img-test-ipad.jpg"/>
+		<img class="sec_four_bg tablet" data-src="<?php bloginfo('template_directory');?>/images/img-test-ipad.jpg"/>
 		
 	</div><!-- sec_four_left -->
 	
@@ -34,7 +34,7 @@
 					
 							<div class="sec_four_inner_slide">
 					
-								<img src="<?php bloginfo('template_directory');?>/images/ico-stars.svg"/>
+								<img data-src="<?php bloginfo('template_directory');?>/images/ico-stars.svg"/>
 					
 								<span class="sec_four_slide_description"><?php the_sub_field( 'description' ); ?></span><!-- sec_four_slide_description -->
 					

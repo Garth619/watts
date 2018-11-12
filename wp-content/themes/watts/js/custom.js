@@ -139,8 +139,9 @@ jQuery(document).ready(function($){
         console.log('wistia load:', textStatus); // Success
       });
     }
-
-    // examples:
+    
+    
+     // examples:
 
     // jQuery(".banner-box-1").one("mouseenter", function(e){
     //   wistiaLoad();
@@ -149,6 +150,28 @@ jQuery(document).ready(function($){
     // createWaypoint('section-1', null, null, '100%', wistiaLoad, false)
 
 
+    
+    
+   /* Live Chat - Call function when script needs to be loaded either by hover, click or waypoints
+   --------------------------------------------------------------------------------------------------- */ 
+   
+   
+   
+   function livechatLoad() {
+	   if(my_data.live_chat) {
+      jQuery.getScript(my_data.live_chat, function(data, textStatus, jqxhr) {
+        console.log('Live Chat load:', textStatus); // Success
+      });
+      // alert( my_data.live_chat);
+      }
+    }
+   
+     
+   
+   
+   createWaypoint('section_one', null, null, -100, livechatLoad, false)
+     
+     
 
     /* Load Images - Call function when you reach the a section with images using waypoints
        BG image - <div data-src=""></div>   ,   Image - <img data-src="">
@@ -187,7 +210,7 @@ jQuery(document).ready(function($){
       console.log('images loaded');
     }
 
-    // createWaypoint('section_two', null, null, '100%', loadImages, false);
+    createWaypoint('section_two', null, null, '100%', loadImages, false);
     
     
 
@@ -482,9 +505,6 @@ checkWidthmenu();
 
 
 // about taps on tablet
-
-
-
 
 
 
