@@ -169,7 +169,7 @@ jQuery(document).ready(function($){
      
    
    
-   createWaypoint('section_one', null, null, -100, livechatLoad, false)
+   createWaypoint('section_one', null, null, -100, livechatLoad, false);
      
      
 
