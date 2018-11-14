@@ -17,6 +17,8 @@ jQuery(document).ready(function($){
 	    jQuery('#section_one img').each(function () {
 	    
 				if (result) {
+					
+					
     
 					if (jQuery(this).attr('data-webp')) {
           

@@ -44,6 +44,12 @@ get_header(); ?>
 							$vimeoimage = $hash[0]['thumbnail_large'];
 							
 							?>
+							
+<!--
+							Create an API App
+							Generate a token manually from your app's authentication page.
+							Request https://api.vimeo.com/videos/{video_id}?access_token={token}
+-->
 				
 							<img src="<?php echo $vimeoimage;?>"/>
 				
