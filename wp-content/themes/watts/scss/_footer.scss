@@ -706,25 +706,48 @@ body:not(.page-template-template-home) {
 				}
 			}
 			.form_wrapper {
-				padding-top:75px;
+				padding-top:55px;
 			}
 		}
 		
 		
 		
 		.form_wrapper {
-			 padding: 107px 40px 55px;
+			 // padding: 107px 40px 55px;
+			 padding: 76px 40px 55px;
 			.form_inner {
 				
 			}
 			span.small_header {
-				
+				text-transform: lowercase;
+				font-size:35px;
+				line-height: 45px;
+				color:$blueone;
+				letter-spacing: 0;
+				max-width: 299px;
+				margin-left:auto;
+				margin-right:auto;
 			}
 			span.large_header {
-				font-size: 32px;
-				line-height: 40px;
+				font-size: 18px;
+				line-height: 26px;
+				font-family: $poppins;
+				font-weight: 400;
+				color:$bluedark;
+				margin-top:14px;
+				max-width: 310px;
 			}
 		}
+		
+		.gform_wrapper {
+			margin-top:40px;
+		}
+		
+		
+		
+		
+		
+		
 		
 		
 		.gform_wrapper {

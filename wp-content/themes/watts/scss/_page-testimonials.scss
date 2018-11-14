@@ -256,10 +256,10 @@
 	
 	
 	.reviews_single_slide {
-    padding: 55px 0 74px;
+    padding: 44px 0 60px;
     span.reviews_description {
-	    font-size: 40px;
-			line-height: 47px;
+	    font-size: 30px;
+			line-height: 35px;
 			max-width:520px;
 			margin-left:auto;
 			margin-right:auto;
@@ -269,6 +269,7 @@
 	
 	.reviews_slider_inner {
     min-height: 525px;
+    box-shadow:none;
    }
    
    .reviews_slider {
@@ -287,10 +288,10 @@
 	
 	
 	.reviews_slider_wrapper {
-		margin: 43px 0 0;
-		padding: 58px 40px 0;
+		margin: 0px;
+		padding: 0px 40px 0;
 		&:after {
-			height: 450px;
+			display: none;
 		}
 	}
 	
