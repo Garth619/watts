@@ -28,8 +28,8 @@
 				transform: translateY(0);
 				&:before {
 					opacity: 1;
-					transform: translateY(0);
-					transition-delay: 630ms;
+					//transform: translateY(0);
+					transition-delay: 330ms;
 				}
 			}
 		}
@@ -109,7 +109,7 @@
 				font-weight: 700;
 				padding-bottom: 15px;
 				border-bottom: 3px solid #fff;
-				transform: translateY(-25px);
+				//transform: translateY(25px);
 				opacity: 0;
 				transition: opacity 500ms linear, transform 700ms cubic-bezier(.17,.66,.34,.98);
 			}
