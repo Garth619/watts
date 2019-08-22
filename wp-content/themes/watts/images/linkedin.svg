@@ -1,12 +1,1 @@
-<svg id="linkedin" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="61" height="60.89" viewBox="0 0 61 60.89">
-  <defs>
-    <style>
-      
-    </style>
-  </defs>
-  <title>linkedin</title>
-  <g>
-    <path class="linkedin-cls-1" d="M10,27.22H22.66V67.9H10ZM16.34,7A7.33,7.33,0,1,1,9,14.33,7.34,7.34,0,0,1,16.34,7" transform="translate(-9.01 -7)"/>
-    <path class="linkedin-cls-1" d="M30.59,27.22H42.71v5.56h.17c1.69-3.2,5.81-6.57,12-6.57C67.65,26.21,70,34.64,70,45.59V67.9H57.38V48.12c0-4.72-.09-10.79-6.57-10.79s-7.59,5.14-7.59,10.45V67.9H30.59Z" transform="translate(-9.01 -7)"/>
-  </g>
-</svg>
+<svg height="60.89" viewBox="0 0 61 60.89" width="61" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-9.01 -7)"><path d="m10 27.22h12.66v40.68h-12.66zm6.34-20.22a7.33 7.33 0 1 1 -7.34 7.33 7.34 7.34 0 0 1 7.34-7.33"/><path d="m30.59 27.22h12.12v5.56h.17c1.69-3.2 5.81-6.57 12-6.57 12.77 0 15.12 8.43 15.12 19.38v22.31h-12.62v-19.78c0-4.72-.09-10.79-6.57-10.79s-7.59 5.14-7.59 10.45v20.12h-12.63z"/></g></svg>

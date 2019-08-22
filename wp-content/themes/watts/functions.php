@@ -10,7 +10,7 @@
  function load_my_styles_scripts() {
   
     
-    //wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
+    wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
     
 
     // disables jquery then registers it again to go into footer
@@ -61,6 +61,7 @@
  
 
 
+/*
 function internal_css_print() {
    echo '<style>';
    
@@ -71,6 +72,7 @@ function internal_css_print() {
 
 
 add_action( 'wp_head', 'internal_css_print' );
+*/
 
 
 
@@ -314,6 +316,20 @@ function wpbeginner_numeric_posts_nav() {
  
 }
 
+function curl_get_contents($url)
+{
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_URL, $url);
+
+    $data = curl_exec($ch);
+    curl_close($ch);
+
+    return $data;
+}
+
 
 
 // vimeo api
@@ -324,11 +340,12 @@ function wpbeginner_numeric_posts_nav() {
  * @return str            The url of the thumbnail, or false if there's an error
  */
 function grab_vimeo_thumbnail($vimeo_url){
-    if( !$vimeo_url ) return false;
-    $data = json_decode( file_get_contents( 'http://vimeo.com/api/oembed.json?url=' . $vimeo_url ) );
-    if( !$data ) return false;
-    return $data->thumbnail_url;
+    if( !$vimeo_url ) return "no url";
+    $url = 'https://vimeo.com/api/oembed.json?url=' . urlencode($vimeo_url ) . "/";
+    $contents = curl_get_contents($url);
+    if (!$contents) return "no contents";
+    $data = json_decode( $contents, true );
+    if( !$data ) return "no data";
+    // return $data['thumbnail_url'];
+    return $data['thumbnail_url'] ;
 }
-
-
-

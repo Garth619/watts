@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "52C722CB-B9A2-4501-816B-47F111A42D1B"
+		"uuidString": "D2A3103C-39AA-46E2-94EF-939B9B43A0CB"
 		}
 	],
 "creatorBuild": "28905",
@@ -252,29 +252,29 @@
 		},
 	"/images/img-1.jpg": {
 		"ft": 16384,
-		"iS": 350236,
+		"iS": 67412,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/img-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/img-test-ipad.jpg": {
 		"ft": 16384,
-		"iS": 278233,
+		"iS": 52630,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/img-test-ipad.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/img-test.jpg": {
 		"ft": 16384,
-		"iS": 241813,
+		"iS": 48172,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/img-test.jpg",
@@ -703,13 +703,13 @@
 		},
 	"/images/video-about.jpg": {
 		"ft": 16384,
-		"iS": 191627,
+		"iS": 43320,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/video-about.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/index.php": {
@@ -736,7 +736,7 @@
 		"oA": 0,
 		"oAP": "/js/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/js/jquery.1.12.4.js": {
@@ -1309,16 +1309,16 @@
 		"uL": 1
 		},
 	"/scss/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/style.css",
-		"oF": 2,
-		"oS": 3,
+		"oAP": "/scss/style.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"/search.php": {
@@ -1349,6 +1349,26 @@
 		"oAP": "/single.php",
 		"oF": 0
 		},
+	"/style copy.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style copy-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1372,15 +1392,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 563126092.03471601,
+	"creationDate": 570645240.29306805,
 	"displayValue": "watts",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron",
+	"iconImageName": "meme-maroney",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -2781,7 +2801,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://watts-demo.com",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

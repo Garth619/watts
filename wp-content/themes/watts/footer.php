@@ -62,7 +62,7 @@
 					if( get_sub_field('address_phone_number_or_copyright') == 'Copyright Verbiage' ) { ?>
 					
 						
-						<div class="loc_col copyright_col">
+						<div class="copyright_col">
 				
 							<span class="copyright_title"><?php the_field( 'copyright_title','option'); ?></span>
 
@@ -166,6 +166,19 @@
 <?php wp_footer();?>
 
 <?php // the_field( 'live_chat_script','option'); ?>
+
+<!-- wattsguerra.com -->
+<!-- Start Of NGage -->
+<div id="nGageLH" style="visibility:hidden; display: block; padding: 0; position: fixed; right: 0px; bottom: 0px; z-index: 5000;"></div>
+    <script>
+        let timing = 15000
+        setTimeout(() => {
+            jQuery.getScript("https://messenger.ngageics.com/ilnksrvr.aspx?websiteid=29-145-54-188-15-229-221-147", ()=>{
+                console.log('nGage loaded');
+            })
+        }, timing);
+    </script>
+<!-- End Of NGage -->
 
 </body>
 </html>
